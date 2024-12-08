@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+/* ShareFile  */
+section {
+    background: url('./English/img/sharebg.png');
+    height: 100%;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 171.6rem;
+padding: 0;
+}
+
+section .header {
+max-width: 100%;
+padding: 0 2rem;
+    padding-top: 5.2rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+section .header p:nth-child(1) {
+    /* margin-right: 8.9rem; */
+}
+section .header p {
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+section .header .logo {
+
+    width: 38.6rem;
+    height: 8.3rem;
+}
+
+section .header .contact p{
+    margin-right: 0;
+    position: static;
+}
+section .header .contact img {
+    margin-left: 1.7rem;
+    width: 8.1rem;
+    height: 8.1rem;
+}
+
+section .middle {
+
+    margin-top: 7.6rem;
+    z-index: 10;
+    position: relative;
+}
+
+section .middle .left {
+    margin-top: 9.6rem;
+    /* margin-left: 10.3rem; */
+}
+
+section .middle .left img {
+    width: 10.3rem;
+    height: 10.3rem;
+}
+
+section .middle .left .mainText {
+    font-size: 6.3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+}
+
+section .middle .left h2 {
+    font-size: 6.3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 5.6rem;
+}
+section .middle .left .LanguageBtn a img{
+    margin-bottom: 2rem;
+    width: 10.4rem;
+    height: 6.8rem;
+}
+section .middle .left .LanguageBtn a{
+    width: 27.5rem;
+    height: 23.4rem;
+    background: #FFFFFF;
+box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+border-radius: 1.6rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 3rem;
+line-height: 4rem;
+color: #00448E;
+text-decoration: none;
+margin: 0 4.55rem;
+margin-top: 2.3rem;
+}
+
+section .bottom {
+
+    margin-top: 14.6rem;
+}
+
+section .bottom p {
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.bg {
+    /* top: 13.5rem; */
+    width: 100%;
+}
+
+/* 
+@media screen and (max-width : 1700px) {
+    html {
+        font-size: 55.5%;
+    }
+    section{
+        min-height: 100vh;
+        height: auto !important;
+    }
+}
+@media screen and (max-width : 1500px) {
+    html {
+        font-size: 48%;
+    }
+}
+*/
+@media screen and (max-width : 1600px) {
+    
+    section {
+        max-height: 100vh;
+    }
+    section .header .contact img {
+        margin-left: 1.7rem;
+        width: 7.1rem;
+        height: 7.1rem;
+    }
+}
+@media screen and (max-width : 1366px) {
+html{
+    font-size: 52%;
+}
+    section {
+        min-height: 100vh;
+    }
+    section .header{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    section .header p{
+        margin-right: 0;
+    }
+   
+    section .header .logo {
+        width: 33.6rem;
+        height: 7.3rem;
+        margin-left: 0 !important;
+    }
+    section .middle{
+        margin-top: 0;
+    }
+    section .middle .left h2,
+    section .middle .left .mainText {
+        font-size: 5.3rem;
+        line-height: 3.9rem;
+    }
+}
+/* @media screen and (max-width : 1100px) {
+    html {
+        font-size: 33.3%;
+    }
+}
+*/
+
+@media screen and (max-width : 1280px) {
+    section .middle {
+        margin-top: 7rem;
+    }
+}
+
+@media screen and (max-width : 1059px) {
+    section .header .contact img {
+        margin-left: 1.7rem;
+        width: 6.1rem;
+        height: 6.1rem;
+    }
+    section .header p{
+        font-size: 2.8rem;
+    }
+    section .header .contact p{
+        font-size: 2.5rem ;
+        line-height: 2.9rem;
+    }
+}
+@media screen and (max-width : 1024px) {
+    section .middle {
+        margin-top: 0;
+    }
+
+section .middle .left .LanguageBtn a {
+    width: 24.5rem;
+    height: 20.4rem;
+}
+section .middle .left .LanguageBtn a {
+    width: 21.5rem;
+    font-size: 2.8rem;
+    height: 15.4rem;
+}
+section .middle .left .LanguageBtn a img {
+    width: 8.4rem;
+    height: 5.8rem;
+}
+}
+.dropdown{
+    display: none;
+}
+@media screen and (max-width : 990px) {
+    section .header {
+        position: relative;
+    }
+    section .header p {
+        top: 13rem;
+        position: absolute;
+    }
+    section .header .contact p {
+        position: static;
+    }
+    section .header p {
+  
+        top: 14rem;
+        position: absolute;
+        left: 0;
+        text-align: center;
+        margin-top: 2rem;
+        /* margin-bottom: 5rem; */
+        width: 100%;
+    }
+    section .header .contact p {
+        position: static;
+        text-align: right;
+        margin-top: 0;
+        margin-bottom:0 ;
+    }
+    section .middle .left{
+        margin-top: 17rem;
+    }
+    .contactPc{
+        display: none !important;
+    }
+    .dropdown{
+        display: flex !important;
+        width: auto;
+    }
+    .dropdown p{
+        position: static !important;
+        padding: 1rem;
+    }
+    .dropdown ul{
+        width: 250px;
+    }
+    .dropdown img{
+        width: 6.1rem;
+        height: 6.1rem;
+    }
+} 
+
+@media screen and (max-width : 768px) {
+    section .header {
+        /* flex-direction: column-reverse; */
+        justify-content: center;
+        align-items: center;
+    }
+   
+    section .header .col-sm-12{
+        justify-content: center;
+        display: flex;
+        margin: auto;
+    }
+html{
+    font-size: 47.5%;
+}
+    section{
+        height: 100% !important;
+        overflow: visible;
+    }
+    section .header {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    section .header .logo{
+        margin: 0 auto !important;
+    }
+    section .middle .left{
+        margin-top: 15rem;
+    }
+}
+
+@media screen and (max-width : 600px) {
+   
+   
+}
+@media screen and (max-width : 580px) {
+    
+}
+@media screen and (max-width : 576px) {
+    .row>*{
+        width: auto;
+    }
+    section .header p {
+        font-size: 3.5rem;
+    }
+    section .header .contact img,
+    section .header .contact p{
+        display: none;
+    }
+   
+    html{
+        font-size: 37.5%;
+    }
+    section .header .contact img{
+        width: 6rem;
+        height: auto;
+    }
+    section .header .contact img,
+    section .header .contact p{
+        display: none;
+    }
+    
+   
+    
+    section .middle .left h2,
+    section .middle .left .mainText{
+        font-size: 4.3rem;
+    line-height: 4.3rem;
+    
+    }
+    section .middle .left .LanguageBtn {
+        margin-top: 17rem !important;
+    }
+   
+    section .middle .left .LanguageBtn a img {
+        width: 7.4rem;
+        height: 4.8rem;
+    }
+    section .middle .left .LanguageBtn a {
+        width: 22.5rem;
+        height: 18.4rem;
+        margin-right: 3rem;
+        margin-left: 0;
+    }
+    section .middle .left .LanguageBtn a:nth-child(2) {
+        margin-right: 0;
+    }
+    section .middle .left h2{
+        margin-top: 1rem;
+    }
+    section .middle .left .mainText{
+        margin-bottom: 0 !important;
+    }
+   
+}
+
+@media screen and (max-width : 550px) {
+    .row>*{
+        width: 100%;
+    }
+    section .header .logo {
+        width: 47.6rem;
+        height: auto;
+        margin: auto !important;
+        display: block;
+    }
+    .dropdown{
+        display: none !important;
+        width: auto;
+    }
+    section .header {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    section .header p{
+        text-align: center;
+        margin-top: 4rem;
+    }
+    section .header p {
+        font-size: 3rem;
+        position: static;
+        line-height: 3.9rem;
+        text-align: center !important;
+        margin-top: 2rem !important;
+    }
+}
+@media screen and (max-width : 375px) {
+    section{
+        max-height: 100vh !important;
+    }
+    section .middle .left .LanguageBtn a img {
+        width: 5.4rem;
+        height: 3.8rem;
+    }
+    section .middle .left .LanguageBtn a {
+        width: 17.5rem;
+        height: 14.4rem;
+    }
+    .container{
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width : 320px) {
+    section .middle {
+        margin-top: 0;
+    }
+    section .middle .left {
+        margin-top: 7rem;
+    }
+
+    section .header .logo {
+        width: 34.6rem;
+        height: auto;
+    }
+
+    
+   
+    section .middle .left h2 {
+margin-bottom: 2rem;
+margin-top: 2rem;
+    }
+}
