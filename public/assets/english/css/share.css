@@ -1,0 +1,651 @@
+@media screen and (max-width: 1919px) {
+    body {
+        zoom: 0.8;
+    }
+    html, body {
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        background-image: url('your-background-image.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    max-height : 100%;
+    max-width: 100%;
+    overflow: hidden;
+
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+html {
+    font-size: 62.5%;
+
+}
+/* https://meet.google.com/mbw-fkwq-ktb */
+/* ShareFile  */
+section {
+    background: url('../img/sharebg.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 171.6rem;
+padding: 0;
+margin-left: .9rem;
+    /* padding-bottom: 9.1rem; */
+}
+section .header {
+    max-width: 100%;
+    padding: 0 2rem;
+        padding-top: 5.2rem;
+        margin-right: 3rem;
+        margin-left: 3rem;
+    }
+
+    section .header p:nth-child(1) {
+        /* margin-right: 8.9rem; */
+    }
+    section .header p {
+        font-size: 3rem;
+        line-height: 3.9rem;
+        color: #00448E;
+        margin-bottom: 0;
+        font-weight: 500;
+    }
+
+    section .header .logo {
+
+        width: 38.6rem;
+        height: 8.3rem;
+    }
+    section .header .contact img {
+        margin-left: 1.7rem;
+        width: 8.1rem;
+        height: 8.1rem;
+    }
+    section .header .contact p{
+        margin-right: 0;
+        position: static;
+    }
+section .middle {
+
+    margin-top: 16.6rem;
+    z-index: 10;
+    position: relative;
+}
+
+section .middle .left {
+    margin-top: 7.3rem;
+    margin-left: 11.1rem;
+}
+
+section .middle .left img {
+    width: 10.3rem;
+    height: 10.3rem;
+}
+
+section .middle .left .mainText {
+    font-size: 6.3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+}
+
+section .middle .left h2 {
+    font-size: 6.3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 5.6rem;
+}
+
+section .middle .right .info,
+section .middle .left .wa .info {
+    width: 37.9rem;
+    height: 8.8rem;
+    box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    margin-left: 2.1rem;
+    font-size: 3rem;
+    line-height: 3.9rem;
+    font-weight: 500;
+    color: #00448E;
+}
+section .middle .right .info
+{
+    margin-left: 0;
+}
+
+section .middle .middleLine {
+    margin-top: 4.6rem;
+}
+
+section .middle .middleLine .line {
+    width: .5rem;
+    height: 12rem;
+    box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+
+}
+
+section .middle .middleLine p {
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin: 2.4rem 0;
+}
+
+section .middle .right {
+    margin-right: 15.8rem;
+
+}
+
+section .middle .right img {
+    margin-bottom: 3.5rem;
+    width: 20.7rem;
+    height: 21rem;
+}
+
+section .bottom {
+
+    margin-top: 23.6rem;
+    margin-right: 4.8rem;
+}
+
+section .bottom p {
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+section .bottom a:nth-child(2) {
+    margin-left:393px;
+width: 314px;
+height: 88px;
+    font-size: 30px;
+    line-height: 39px;
+    background: #00448E;
+    box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    text-decoration: none;
+}
+
+section .bottom a img {
+    margin-left: 1.7rem;
+    width: 1.1rem;
+    height: 2rem;
+}
+section .bottom .backbtn{
+    margin-right: auto;
+    background: linear-gradient(105.97deg, #D5DAF8 -10.95%, #B0DFFF 113.84%);
+border: 2px solid #00448E;
+box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+border-radius: 1.6rem;
+width: 96px;
+height: 86px;
+text-decoration: none;
+font-size: 40px;
+line-height: 49px;
+color: #00448E;
+margin-left: 53px;
+}
+
+
+.bg {
+    top: 13.5rem;
+    width: 100%;
+}
+
+@media screen and (max-width : 1920px) {
+    @media screen and (max-height : 1000px) {
+        section .middle {
+            margin-top: 9.6rem;
+        }
+        section .bottom {
+            margin-top: 9rem;
+        }
+    }
+}
+@media screen and (max-width : 1900px) {
+    section .middle {
+        margin-top: 9.6rem;
+    }
+    section .bottom {
+        margin-top: 9rem;
+    }
+    .container{
+    padding-bottom: 0;
+    }
+    .bg {
+    top: 0;
+    width: 100%;
+}
+}
+@media screen and (max-width : 1680px) {
+    section .middle {
+        margin-top: 8.6rem;
+    }
+        section .bottom {
+            margin: auto;
+            margin-top: 8rem;
+        width: 70%;
+        }
+
+}
+@media screen and (max-width : 1600px) {
+    section {
+        max-height: 100vh;
+    }
+
+section .middle {
+    margin-top: 6.6rem;
+}
+    section .bottom {
+        margin-top: 6rem;
+    }
+   
+
+
+}
+@media screen and (max-width : 1400px) {
+    section .bottom a:nth-child(2) {
+        margin-left: 393px;
+        width: 261px;
+        font-size: 25px;
+        height: 73px;
+    }  
+    section .bottom .backbtn{
+        width: 80px;
+height: 73px;
+font-size: 35px;
+    }  
+}
+@media screen and (max-width : 1366px) {
+html{
+    font-size: 52%;
+}
+    section {
+        min-height: 100%;
+    }
+    section .header{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    section .header p{
+        margin-right: 0;
+    }
+
+    section .header .logo {
+        width: 33.6rem;
+        height: 7.3rem;
+        margin-left: 0 !important;
+    }
+    section .middle{
+        /* margin-top: 0; */
+    }
+    section .middle .left h2,
+    section .middle .left .mainText {
+        font-size: 5.3rem;
+        line-height: 3.9rem;
+    }
+}
+@media screen and (max-width : 1280px) {
+    section .bottom {
+        margin-top: 13rem;
+    }
+    section .bottom {
+        margin-top: 13rem;
+    }
+    section .bottom .backbtn{
+        width: 71px;
+        height: 59px;
+        font-size: 32px;
+    }
+    section .bottom a:nth-child(2){
+        width: 222px;
+        height: 59px;
+        font-size: 21px;
+    }  
+}
+.dropdown{
+    display: none !important;
+}
+@media screen and (max-width : 1059px) {
+    section .header .contact img {
+        margin-left: 1.7rem;
+        width: 6.1rem;
+        height: 6.1rem;
+    }
+    section .header p{
+        font-size: 2.8rem;
+    }
+    section .middle .right{
+        margin-right: 11.1rem !important;
+    }
+    section .header .contact p{
+        font-size: 2.5rem;
+        line-height: 2.9rem;
+    }
+    section .bottom {
+        margin-top: 5rem;
+    }
+}
+@media screen and (max-width : 1024px) {
+    @media screen and (max-height : 640px) {
+        section .bottom {
+            margin-top: 6rem;
+        }
+    }
+}
+@media screen and (max-width : 990px) {
+
+    section .middle{
+        flex-direction: column;
+    align-items: center !important;
+    text-align: center;
+    margin-top: 4rem;
+    }
+    section .header {
+        position: relative;
+    }
+    section .header p {
+       display: none;
+    }
+    section .header .contact p {
+        position: static;
+        text-align: right;
+        margin-top: 0;
+        margin-bottom:0 ;
+    }
+    section .middle .left{
+        margin-left: 0;
+        margin-top: 3rem;
+    }
+    section .middle .middleLine{
+        flex-direction: row !important;
+        margin-top: 3rem ;
+        margin-bottom: 3rem ;
+    }
+    section .middle .middleLine .line{
+        width: 12rem;
+        height: 0.5rem;
+        margin: 0 2rem;
+    }
+    section .middle .right
+    {
+        margin-right: 0 !important;
+    }
+    section .bottom {
+        margin-top: 5rem;
+    }
+    section .bottom a:nth-child(2){
+        margin-left: 0;
+    }
+    .contactPc{
+        display: none !important;
+    }
+    .dropdown{
+        display: flex !important;
+        width: auto;
+    }
+    .dropdown p{
+        display: flex !important;
+
+        position: static !important;
+        padding: 1rem;
+    }
+    .dropdown ul{
+        width: 250px;
+    }
+    .dropdown img{
+        width: 6.1rem;
+        height: 6.1rem;
+    }
+    
+    section .bottom .backbtn {
+        width: 43px;
+        font-size: 18px;
+        margin-right: 4rem !important;
+        margin-left: 0;
+        height: 46px;
+        border-radius: 11px;
+    }
+    section .bottom a:nth-child(2) {
+        width: 190px;
+        height: 48px;
+        font-size: 20px;
+        margin-left: 13px;
+        border-radius: 11px;
+    }
+    section .bottom{
+        width: 100%;
+        justify-content: center !important;
+    }
+    section .bottom {
+        margin-top: 12rem;
+    }
+
+}
+@media screen and (max-width : 768px) {
+
+
+    section .bottom a{
+        margin: 0 !important;
+    }
+    section .bottom p{
+        margin: 0 10rem;
+    }
+    section{
+        height: 100% !important;
+        overflow: visible;
+    }
+    section .header {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    section .header p{
+        left: 35vw;
+    }
+
+
+}
+@media screen and (max-width : 600px) {
+    section .header p {
+        top: 16rem;
+        position: absolute;
+        left: 33vw !important;
+    }
+    section .middle .right .info, section .middle .left .wa .info {
+        width: 35.9rem;
+        height: 7.8rem;
+    }
+    section .middle .right img {
+        width: 17.7rem;
+        height: 17rem;
+    }
+    section .middle .left h2{
+        margin-bottom: 2rem;
+    }
+    section .middle .left {
+        margin-top: 8.5rem;
+    }
+    section .middle .left .wa{
+        align-items: center;
+    }
+    section .middle .left img {
+        width: 9.3rem;
+        height: 9.3rem;
+    }
+
+
+}
+@media screen and (max-width : 576px) {
+
+    html{
+        font-size: 52%;
+    }
+    section .header .logo {
+        width: 47.6rem;
+        height: auto;
+    }
+    section .middle  {
+        position: absolute;
+    width: 100%;
+    bottom: 50%;
+    }
+    section .middle .left {
+        margin-top: 0;
+    }
+    section .header {
+    flex-direction: column-reverse;
+}
+section .header .logo{
+    width: 200px;
+    height: auto;
+    margin: 0 auto !important;
+    display: block;
+}
+section .header p{
+        margin-bottom: 2rem !important;
+        position: static;
+        text-align: center;
+    }
+    section .header .contact img,
+    section .header .contact p{
+        display: none;
+    }
+    .dropdown {
+        display: none !important;
+        width: auto;
+    }
+    section .bottom{
+        justify-content: center !important;
+    }
+
+    section .bottom{
+    width: 100% !important;
+    position: absolute;
+    bottom: 5%;
+    justify-content: space-around !important;
+    }
+    section .middle .right,
+    section .middle .middleLine{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width : 550px) {
+    .dropdown{
+        display: none !important;
+        width: auto;
+    }
+
+}
+@media screen and (max-width : 428px) {
+
+    html{
+        font-size: 42%;
+    }
+    section .middle .right .info, section .middle .left .wa .info {
+        width: 30.9rem;
+        height: 5.8rem;
+    }
+    section .middle .left h2, section .middle .left .mainText {
+    font-size: 3.3rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        line-height: 3.9rem;
+    }
+    section .middle .left h2 {
+        margin-top: 1rem;
+    }
+    section .middle .left .mainText {
+        margin-bottom: 0;
+    }
+    section .middle .left img {
+        width: 7.3rem;
+        height: 7.3rem;
+    }
+    section .middle .right img {
+        width: 16.7rem;
+        height: 16rem;
+    }
+    section .middle .middleLine {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+
+    section .header{
+        padding-top: 2rem;
+    }
+    
+    section .header p{
+        font-size: 2rem !important;
+        line-height: 2.2rem !important;
+    }
+    section .middle .middleLine p {
+        font-weight: 400;
+        font-size: 3rem;
+    }
+}
+@media screen and (max-width : 480px) {
+    section .header .contact img{
+        width: 6rem;
+        height: auto;
+    }
+    section .header p{
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    section .bottom button{
+        margin-left: 20rem;
+    }
+    
+}
+
+@media screen and (max-width : 360px) {
+    section .middle .left h2, section .middle .left .mainText {
+        font-size: 3.3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        line-height: 3.9rem;
+    }
+    section .middle .right .info, section .middle .left .wa .info{
+        width: 21.9rem;
+    height: 4.8rem;
+    font-size: 2rem;
+    }
+   
+    section .header p {
+        top: 11rem;
+    }
+
+}
+@media screen and (max-width : 320px) {
+html{
+    font-size: 38%;
+}
+}
+/* ShareFile  */

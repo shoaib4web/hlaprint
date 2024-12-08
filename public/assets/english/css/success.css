@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%; 
+    /* 1rem = 10px  */
+}
+.document{
+    display: flex;
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: #00448E;
+}
+.document .left{
+    width:  49.47%;
+    position: relative;
+    min-height: 100%;
+}
+.document .left .line1{
+    position: absolute;
+    top: 0;
+    left: 1.5rem;
+}
+.document .left .line2{
+    position: absolute;
+    bottom: 0;
+    right: 13.2rem;
+}
+.document .left .header{
+    display: flex;
+    width: 64.2rem;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 4rem;
+    margin-top: 5rem;
+}
+.document .left .header .btn{
+    width: 15rem;
+    height: 5.8rem;
+    background-color: white;
+    border-radius: 5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #00448E;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border: 0;
+}
+.document .left .header img{
+    width: 33.4rem;
+    height: 7.3rem;
+}
+.document .left .printing{
+    margin-top: 16.7rem !important; 
+    margin: auto;
+    display: block;
+
+    width: 49.9rem;
+    height: 49.9rem;
+}
+.document .right{
+    background-color: white;
+    display: flex;
+    width: 50.53%;
+}
+.document .right .container{
+    width: 66.6rem;
+    margin: auto;
+    padding-right: 2.8rem;
+}
+.document .right .container .box{
+    width: 63.8rem;
+    height: 49.7rem;
+    border-radius: 8px;
+background: #FFF;
+
+/* s1 */
+margin-bottom: 2.4rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+box-shadow: 0px 2px 14px 0px rgba(0, 68, 142, 0.16);
+}
+.document .right .container .box img{
+    width: 21.8rem;
+    height: 21.8rem;
+}
+    
+.document .right .container .box h2{
+    font-size: 3.6rem;
+    font-weight: 600;
+    margin: 2.4rem 0;
+    color: #00448E;
+}
+.document .right .container .box p{
+    font-size: 2.4rem;
+    color: #8A8A8A;
+    font-weight: 400;
+}
+.document .right .container button{
+    width: 63.8rem;
+    height: 7rem;
+    border-radius: 4px;
+background: #00448E;
+font-size: 2rem;
+font-weight: 600;
+color: white;
+border: 0;
+}
+
+
+    @media screen and (max-width : 1550px) {
+        html{
+            font-size: 52.5%;
+        }
+    }
+    @media screen and (max-width : 1250px) {
+        html{
+            font-size: 42.5%;
+        }
+    }
+    @media screen and (max-width : 950px) {
+        html{
+            font-size: 32.5%;
+        }
+    }
+@media screen and (max-width : 768px) {
+    .document{
+        background-color: white;
+        flex-direction: column;
+    }
+    .document .left{
+        width: 100%;
+        height: 16rem;
+        margin-bottom: 2rem;
+        border-radius: 0 0 2.2rem 2.2rem;
+        background-color: #00448E;
+    }
+    .document .left .printing{
+        display: none;
+    }
+    .document .left .line1,
+    .document .left .line2{
+        display: none;
+    }
+    .document .right{
+        width: 100%;
+    }
+    
+    .document .right .container{
+        padding-right: 0;
+    }
+}
+@media screen and (max-width : 475px) {
+    html{
+        font-size: 62.5%;
+    }
+    .document .right .container{
+        align-items: center;
+    flex-direction: column;
+    display: flex;
+    }
+    .document .left{
+        height: 6.7rem;
+        border-radius: 0 0 1.2rem 1.2rem;
+    }
+    .document .left .header {
+        margin-top: 1.8rem;
+        padding-left: 2.8rem;
+        width: 100%;
+        padding-right: 3rem;
+        padding-left: 2.8rem;
+    }
+    .document .left .header img{
+        width: 15.6rem;
+        height: 3.4rem;
+    }
+    .document .left .btn{
+        background-color: transparent !important;
+        color: white !important;
+        width: auto !important;
+        /* margin-right: 3rem; */
+        height: auto !important;
+    }
+
+    .document .right .container .box{
+        width: 31.5rem;
+        margin-top: .4rem;
+        height: 33.6rem;
+    }
+    .document .right .container .box img{
+        width: 10.9rem;
+        height: 10.9rem;
+    }
+        
+    .document .right .container .box h2{
+        font-size: 1.8rem;
+        margin-top: 1.6rem;
+        margin-bottom: 2.4rem;
+    }
+    .document .right .container .box p{
+        font-size: 1.2rem;
+    }
+    .document .right .container button{
+        width: 31.5rem;
+        height: 5.2rem;
+        font-size: 1.6rem;
+    }
+   }

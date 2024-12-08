@@ -1,0 +1,581 @@
+
+@media screen and (max-width: 1919px) {
+    body {
+        zoom: 0.8;
+    }
+    html, body {
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        background-image: url('your-background-image.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+/* ShareFile  */
+section {
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 171.6rem;
+padding: 0;
+margin-left: .9rem;
+    /* padding-bottom: 9.1rem; */
+}
+
+section .header {
+    justify-content: space-between !important;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding-top: 5.2rem;
+}
+
+section .header p {
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+section .header .imgdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+
+}
+section .header .logo {
+    width: 38.6rem;
+    height: 8.3rem;
+}
+
+section .header .contact img {
+    margin-left: 1.7rem;
+    width: 8.1rem;
+    height: 8.1rem;
+}
+
+section .middle {
+
+    margin-top: 16.6rem;
+    z-index: 10;
+    position: relative;
+}
+
+section .middle .left {
+    margin-top: 7.3rem;
+    margin-right: 11.1rem;
+}
+
+section .middle .left img {
+    width: 10.3rem;
+    height: 10.3rem;
+}
+
+section .middle .left .mainText {
+    font-size: 6.3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+}
+
+section .middle .left h2 {
+    font-size: 6.3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 5.6rem;
+}
+
+section .middle .left .wa .info {
+    width: 37.9rem;
+    height: 8.8rem;
+    box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    margin-right: 2.1rem;
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    padding-right: 2rem;
+    text-align: center;
+}
+section .middle .right .info
+{
+    margin-left: 0;
+}
+section .middle .left input{
+border: 0;
+outline: none;
+}
+
+
+
+section .middle .right {
+    margin-left: 7.5rem;
+}
+
+
+
+section .bottom button {
+    margin-right:393px;
+    width: 314px;
+    height: 88px;
+    font-size: 30px;
+    line-height: 39px;
+    background: #00448E;
+    box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+section .bottom a img {
+    margin-right: 1.7rem;
+}
+
+
+.bg {
+    top: 13.5rem;
+}
+
+/* ShareFile  */
+
+
+
+
+/* CodePage  */
+
+.code{
+    background: #000;
+    background:  url('../img/codebg.png');
+    background-position: center;
+    background-size: cover;
+}
+.code .middle{
+    margin-top: 23.9rem;
+}
+.code .middle .left{
+    margin-top: 0;
+}
+.code .middle .right {
+margin-right: 8.3rem;
+}
+.code .right .dial{
+    width: 74.7rem;
+    height: 36.2rem;
+}
+.code .right .dial button{
+    width: 22.2rem;
+    height: 7.8rem;
+    box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    margin: .8rem 1.3rem;
+font-size: 3rem;
+line-height: 4.5rem;
+color: #00448E;
+font-weight: 500;
+text-decoration: none;
+}
+section .bottom {
+
+    margin: auto;
+    margin-top: 17.3rem;
+    justify-content: center !important;
+
+}
+
+section .bottom p {
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+.dropdown{
+    display: none !important;
+}
+
+
+section .bottom a img {
+    margin-right: 1.7rem;
+    width: 1.1rem;
+    height: 2rem;
+}
+section .bottom .backbtn{
+    margin-left: 626px;
+    margin-right: 0;
+    background: linear-gradient(105.97deg, #D5DAF8 -10.95%, #B0DFFF 113.84%);
+border: 2px solid #00448E;
+box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+border-radius: 16px;
+width: 96px;
+height: 86px;
+text-decoration: none;
+font-size: 40px;
+line-height: 49px;
+color: #00448E;
+}
+section .middle .left .wa .info::-webkit-outer-spin-button,
+section .middle .left .wa .info::-webkit-inner-spin-button
+{
+    -webkit-appearance: none;
+    margin: 0;
+}
+@media screen and (max-width : 1920px) {
+    @media screen and (max-height : 1000px) {
+
+        .code .middle {
+            margin-top: 10.9rem;
+        }
+        section .bottom{
+            margin-top: 10.4rem;
+        }
+    }
+}
+@media screen and (max-width : 1800px) {
+    .code .middle {
+        margin-top: 10.9rem;
+    }
+    section .bottom{
+        margin-top: 10.4rem;
+    }
+}
+
+ @media screen and (max-width : 1600px) {
+    html {
+        font-size: 52.5%;
+    }
+}
+ @media screen and (max-width : 1400px) {
+        section .bottom .backbtn{
+            margin-right: 0;
+            /* margin-left: 3rem; */
+        }
+        section .bottom a:nth-child(2){
+            margin: 0;
+        }
+
+            section .bottom button{
+                margin: 0;
+            }
+               section .bottom .backbtn{
+                   margin-left: 0;
+                   width: 80px;
+                   height: 73px;
+                   font-size: 35px;
+               }
+               section .bottom button {
+                   margin-right: 393px;
+                   width: 261px;
+                   height: 73px;
+                   font-size: 25px;
+               }      
+                 
+           
+    }
+    @media screen and (max-width : 1366px) {
+        .code .right .dial {
+            width: 62.7rem;
+        }
+        section .bottom {
+            margin-top: 5.4rem !important;
+        }
+        .code .middle {
+            margin-top: 6rem !important;
+        }
+        .code .right .dial button {
+    width: 18.2rem;
+    height: 6.8rem;
+    /* margin: 0.3rem; */
+}
+section .middle .left .error {
+    margin-left: 10.5rem;
+    width: 34.9rem;
+}
+section .middle .left .wa .info {
+    width: 34.9rem;
+    height: 7.8rem;
+}
+section .middle .left img {
+    width: 8.3rem;
+    height: 8.3rem;
+}
+section .middle .left .wa{
+    align-items: center;
+}
+section .middle .left img {
+    width: 8.3rem;
+    height: 8.3rem;
+}
+    }
+@media screen and (max-width : 1280px) {
+    html{
+        font-size: 42.5%;
+    }section .bottom .backbtn{
+        width: 71px;
+        height: 59px;
+        font-size: 32px;
+    }
+    section .bottom button {
+        width: 222px;
+        height: 59px;
+        font-size: 21px;
+    }  
+}
+@media screen and (max-width : 990px) {
+    section .middle .left .mainText {
+        font-size: 34px;
+    }
+    section .middle .left h2 {
+        font-size: 34px;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+    }
+    section .header .imgdiv{
+        justify-content: flex-start !important;
+    }
+    section .middle .left .wa {
+
+        justify-content: center;
+    }
+    section .bottom{
+margin-top: 17rem !important;
+        width: 100%;
+        justify-content: center !important;
+    }
+    .code .middle .right{
+        display: none;
+    }
+    .code .middle .left{
+        margin: auto;
+        text-align: center;
+    }
+    .code .middle .left p,
+    .code .middle .left h2{
+text-align: center !important;
+    }
+    .contactPc{
+        display: none !important;
+    }
+    .dropdown{
+        display: flex !important;
+        width: auto;
+    }
+    section .header p {
+        display: none;
+    }
+    .dropdown p{
+        display: flex !important;
+
+        position: static !important;
+        padding: 1rem;
+    }
+    .dropdown ul{
+        width: 250px;
+    }
+    .dropdown img{
+        width: 6.1rem;
+        height: 6.1rem;
+    }
+    section .header .logo{
+        margin-left: 0 !important;
+    }
+    section .bottom .backbtn {
+        width: 43px;
+        font-size: 18px;
+        margin-right: 4rem !important;
+        margin-right: 0;
+        height: 46px;
+        border-radius: 11px;
+    }
+    section .bottom button {
+        width: 190px;
+        height: 48px;
+        font-size: 20px;
+        margin-right: 13px;
+        border-radius: 11px;
+    }
+    
+}
+@media screen and (max-width : 576px) {
+section .bottom {
+    width: 100% !important;
+    position: absolute;
+    bottom: 5%;
+    margin-top: 16rem !important;
+    justify-content: space-around !important;
+}
+    .dropdown{
+        display: none !important;
+    }
+    section .header .logo {
+        width: 200px;
+        height: auto;
+        margin-left: auto !important;
+    }
+   
+    section .header .imgdiv{
+        justify-content: center !important;
+        position: static;
+    }
+    section .header .imgdiv .logo{
+        margin-left: 0 !important;
+    }
+    section .middle  {
+        position: absolute;
+    width: 100%;
+    bottom: 50%;
+    }
+}
+@media screen and (max-width : 480px) {
+    html{
+        font-size: 32.5%;
+    }
+    
+}
+@media screen and (max-width : 428px) {
+    .code .middle .left{
+        margin-top: 10rem;
+    }
+   
+    section .bottom .backbtn{
+        margin-right: 5rem !important;
+    }
+}
+@media screen and (max-width : 320px) {
+
+    .code .middle{
+        margin-top: 0rem;
+    }
+
+}
+/* CodePage  */
+
+
+/**===================================
+        RESPONSIVE CODE PAGE
+====================================**/
+section.code .middle .left .error {
+    margin: 0;
+    margin-right: 61px;
+    margin-top: 10px;
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid red;
+    color: red;
+    background: transparent !important;
+}
+@media only screen and (min-width : 1920px) {/* to 1366px */
+}
+@media only screen and (max-width : 1365px) { /* to 1024 */
+}
+@media only screen and (max-width : 1023px) { /* to 980 */
+}
+@media only screen and (max-width : 980px) { /* to 800 */
+    section.code {}
+    section.code .header{}
+    section.code .middle {
+        /* height: calc(100vh - 150px); */
+        height: auto;
+        margin: 40px 0px !important;
+    }
+    section.code .middle .left {
+        margin: 0 !important;
+        width: calc(100% - 30px);
+        margin: 0 auto !important;
+        height: 100% !important;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+    section.code .middle .left .wa {
+        margin-top: 7rem !important;
+    }
+    section.code .bottom {
+        /* width: calc(100% - 120px ) !important; */
+        margin: 0 auto;
+        margin-top: 0 !important;
+    }
+    section.code .bottom a.backbtn {
+        margin: 0 !important;
+        width: 46px !important;
+        height: 46px !important;
+    }
+    /* section.code .bottom form.d-flex.justify-content-center.align-items-center {
+        width: calc(100% - 50px);
+    } */
+    section.code .bottom form.d-flex.justify-content-center.align-items-center button {
+        /* margin-right: 0; */
+        /* margin-right: auto; */
+    }
+    section.code .middle .left .wa input {
+        -moz-appearance: textfield;
+    }
+    section.code .middle .left .error {
+        margin: 0;
+        margin-right: 61px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width : 840px) {
+    section.code .middle {
+        /* height: calc(100vh - 170px); */
+        height: auto;
+        margin: 40px 0px !important;
+    }
+}
+@media only screen and (max-width : 799px) { /* to 768 */
+}
+@media only screen and (max-width : 768px) { /* to 600 */
+    section.code .middle {
+        /* height: calc(100vh - 175px); */
+        height: auto;
+        margin: 40px 0px !important;
+    }
+}
+@media only screen and (max-width : 760px) { /* to 600 */
+    section.code .middle {
+        /* height: calc(100vh - 150px); */
+        height: auto;
+        margin: 40px 0px !important;
+    }
+}
+@media only screen and (max-width : 599px) { /* to 480 */
+}
+@media only screen and (max-width : 479px) { /* to 375 */
+}
+@media only screen and (max-width : 390px) { /* to 360 */
+    section.code .middle .left .wa {
+        margin-top: 2rem !important;
+    }
+}
+@media only screen and (max-width : 340px) {
+    
+}
+@media only screen and (max-width : 359px) { /* to 320 */
+}

@@ -1,0 +1,385 @@
+
+@media screen and (max-width: 1919px) {
+    body {
+        zoom: 0.8;
+    }
+    html, body {
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        background-image: url('your-background-image.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+/* ShareFile  */
+section {
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    background: url("../img/codebg.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    max-width: 169.8rem;
+padding: 0;
+margin-left: .9rem;
+
+}
+.dropdown{
+    display: none !important;
+}
+section .header {
+    justify-content: space-between !important;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding-top:3rem;
+}
+section .header p {
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+section .header .imgdiv{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+
+}
+section .header .logo {
+    width: 38.6rem;
+    height: 8.3rem;
+}
+
+section .header .contact img {
+    margin-left: 1.7rem;
+    width: 8.1rem;
+    height: 8.1rem;
+}
+.processing .header .language button{
+    width: 10.8rem;
+    height: 9.2rem;
+    background: #FFFFFF;
+    box-shadow: 3.17005px 8.32137px 3.5663px rgba(0, 0, 0, 0.01), 1.98128px 4.75507px 3.17005px rgba(0, 0, 0, 0.03), 0.792512px 1.98128px 2.37754px rgba(0, 0, 0, 0.04), 0.396256px 0.396256px 1.18877px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 6.34009px;
+    border: 0;
+}
+.processing .header .language button:nth-child(1){
+    margin-right: 2.4rem;
+}
+.processing .header .language button p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+margin-top: 1rem;
+}
+.processing .header .language button img{
+    width: 4.1rem;
+    height: 2.6rem;
+}
+.processing   .main {
+    margin-top: 16.2rem;
+
+}
+.processing   .main .left{
+    width: 68.2rem;
+    height: 19.3rem;
+    background: #FFFFFF;
+box-shadow: 6.99931px 18.3732px 7.87422px rgba(0, 0, 0, 0.01), 4.37457px 10.499px 6.99931px rgba(0, 0, 0, 0.03), 1.74983px 4.37457px 5.24948px rgba(0, 0, 0, 0.04), 0.874914px 0.874914px 2.62474px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+border-radius: 13.9986px;
+padding-top: 5.1rem;
+padding-right: 5.1rem;
+margin-right: 16.9rem;
+}
+.processing .main .left p{
+    font-size: 5.5rem;
+    line-height: 3.4rem;
+    color: #00448E;
+    margin-bottom: 2.6rem;
+}
+.processing .main  .left h2{
+    font-size: 5.5rem;
+    line-height: 3.4rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #00448E;
+}
+.processing .main  img{
+    width: 44.5rem;
+    height: 50.6rem;
+    margin-left: 16.8rem;
+}
+.processing   .back{
+    width: 96px;
+    margin-top: 123px;
+    height: 86px;
+    background: #00448E;
+    box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    margin-right: 53px;
+    margin-left: auto;
+    display: block;
+    margin-left: auto;
+    /* visibility: hidden; */
+}
+
+
+.processing .date{
+    margin-top: .7rem !important;
+        font-size: 3rem;
+        line-height: 3.9rem;
+        color: #00448E;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+/* ShareFile  */
+
+
+
+@media screen and (max-width : 1920px) {
+    @media screen and (max-height : 1000px) {
+        section .main {
+            margin-top: 9.6rem !important;
+        }
+        .processing .back {
+            margin-top: 9rem;
+        }
+    }
+}
+@media screen and (max-width : 1900px) {
+    section .main {
+        margin-top: 9.6rem !important;
+    }
+    .processing .back {
+        margin-top: 9rem;
+    }
+    .container{
+    padding-bottom: 0;
+    }
+    .bg {
+    top: 0;
+    width: 100%;
+}
+}
+@media screen and (max-width : 1600px) {
+    section .main {
+        margin-top: 7.6rem !important;
+    }
+    .processing .back {
+        margin-top: 5rem;
+    }
+    .processing .main .left {
+        width: 41.2rem;
+    }
+}
+@media screen and (max-width : 1440px) {
+    section .main {
+        margin-top: 5.6rem !important;
+    }
+    .processing .back {
+        margin-top: 4rem;
+    }
+    .processing .main img {
+        width: 37.5rem;
+        height: auto;
+    }
+    .processing .main .left {
+        height: 16.3rem;
+        padding-top: 3.1rem;
+        padding-right: 4.1rem;
+    }
+    .processing .main .left p,
+    .processing .main .left h2{
+        font-size: 4.5rem;
+    }
+}
+@media screen and (max-width : 1400px) {
+    .processing   .back{
+        width: 80px;
+        height: 73px;
+        font-size: 35px;
+    }
+    }
+@media screen and (max-width : 1366px) {
+    html {
+        font-size: 52.5%;
+    }
+    .processing .main .left{
+        margin-left: 19.4rem;
+    }
+}
+@media screen and (max-width : 1280px) {
+    .processing   .back{
+        width: 71px;
+        height: 59px;
+        font-size: 32px;
+    }
+}
+@media screen and (max-width : 1110px) {
+    section .header p {
+        font-size: 2.5rem;
+        line-height: 2.9rem;
+    }
+    section .header .contact img {
+        width: 6.1rem;
+        height: 6.1rem;
+    }
+    .processing .main .right .pos {
+        width: 37.7rem;
+    }
+    .processing .main .right{
+        margin-left: 7rem;
+
+    }
+}
+@media screen and (max-width : 1024px) {
+    section .main {
+        margin-top: 4.6rem !important;
+    }
+    .processing .back {
+        margin-top: 0rem;
+    }
+}
+@media screen and (max-width : 990px) {
+    .processing .back {
+        margin-top: 14rem;
+    }
+    .processing .back {
+        margin-top: 14rem;
+        width: 43px;
+        margin-left: auto !important;
+        height: 46px;
+        font-size: 20px;
+    }
+section .header .logo {
+    margin-right: 0 !important;
+}
+    section .header p {
+        display: none;
+     }
+     section .header .contact p {
+         position: static;
+         text-align: right;
+         margin-top: 0;
+         margin-bottom:0 ;
+     }
+    .contactPc{
+        display: none !important;
+    }
+    .dropdown{
+        display: flex !important;
+        width: auto;
+    }
+    .dropdown p{
+        display: flex !important;
+
+        position: static !important;
+        padding: 1rem;
+    }
+    .dropdown ul{
+        width: 165px;
+    }
+    .dropdown img{
+        width: 6.1rem;
+        height: 6.1rem;
+    }
+    .processing .main img {
+        width: 30.5rem;
+        height: auto;
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+    .processing .main{
+        flex-direction: column-reverse !important;
+        justify-content: center !important;
+        margin-top: 5.6rem!important;
+    }
+    .processing .main .left{
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center !important;
+        padding-right: 0;
+    }
+    .processing .back {
+        width: 44px;
+        height: 46px;
+        font-size: 2.5rem;
+        border-radius: 1.6rem;
+        margin-right: auto !important;
+    }
+    section .main {
+        margin-top: 13.6rem !important;
+    }
+    section .header .imgdiv{
+        justify-content: flex-start;
+    }
+}
+@media screen and (max-width : 576px) {
+    .processing .main img {
+        width: 20.5rem;
+        height: auto;
+    }
+    section .header .imgdiv{
+        position: relative;
+        justify-content: center;
+    }
+    .dropdown{
+        display: none !important;
+    }
+    section .header .logo{
+        margin-right: auto !important;
+        margin-left: auto !important;
+        width: 200px;
+        height: auto;
+    }
+    .processing .main .left {
+        height: 14.3rem;
+    }
+    .processing .main .left p, .processing .main .left h2 {
+        font-size: 4rem;
+        line-height: 2.4rem;
+    }
+    
+}
+@media screen and (max-width : 418px) {
+    .processing .main .left p, .processing .main .left h2 {
+        font-size: 3rem;
+        line-height: 2.4rem;
+        margin-bottom: 1.6rem;
+    }
+    .processing .main .left {
+        width: 34.2rem;
+        height: 12.3rem;
+    }
+    .processing .back {
+        margin-top: 13rem;
+    }
+}

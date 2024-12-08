@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+body{
+    position: relative;
+}
+.sideel1{
+    position: absolute;
+    top: 20.9rem;
+    right: 0;
+    width: 10.6rem;
+}
+.sideel2{
+    position: absolute;
+    top: 85.1rem;
+    right: 0;
+    width: 3.2rem;
+
+}
+.sideel3{
+    position: absolute;
+    bottom: 15.1rem;
+    left: 0;
+    width: 6.8rem;
+
+}
+.leftel{
+    position: absolute;
+    top: 34rem;
+    left: 0;
+    width: 47.5rem;
+    z-index: -1;
+
+}
+html{
+    font-size: 62.5%;
+}
+div.pageTop{
+    padding-right: 22.4rem;
+    background-color: #00448E;
+    width: 100%;
+
+    height: 6.3rem;
+}
+div.pageTop .contact{
+    display: flex;
+    margin-left: 0;
+    justify-content: flex-end;
+    height: 100%;
+    align-items: center;
+}
+div.pageTop .contact div{
+    color: white;
+    display: flex;
+    font-size: 1.6rem;
+    height: 20px;
+    align-items: center;
+}
+div.pageTop .contact div:nth-child(1){
+    padding-right: 2.4rem;
+    border-right: 2px solid white;
+    margin-right: 2.4rem;
+}
+div.pageTop .contact div img{
+    margin-right: 1.2rem;
+    width: 3rem;
+    height: 3rem ;
+}
+header {
+    margin-right: 22.4rem;
+    margin-top: 2.7rem;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+header nav a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #8A8A8A;
+    margin: 0 2rem;
+}
+section.hero {
+    margin: auto;
+    margin-top: 11.6rem;
+    display: flex;
+    align-items: center;
+   width: 144.9rem;
+    justify-content: space-between;
+    text-align: right;
+}
+section.hero img.main{
+    width: 79.2rem;
+}
+section.hero img.logo{
+    width: 32.3rem;
+}
+section.hero h2{
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #00448E;
+
+}
+section.hero p{
+    font-size: 2.2rem;
+    width: 56.9rem;
+    color: #202020;
+    font-weight: 600;
+}
+section.about {
+    display: flex;
+    margin-top: 14.4rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section.about h1{
+    font-size:4rem;
+    color: #00448E;
+    font-weight: 700;
+    margin-bottom: 2.4rem;
+}
+section.about .aboutText{
+    font-size: 2.2rem;
+    font-weight: 600;
+    width: 101.6rem;
+    text-align: center;
+    color: #202020;
+}
+section.about .row{
+    display: flex;
+}
+section.about .row div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 13.3rem ;
+    justify-content: center;
+    
+}
+section.about .row div img{
+    width: 9.6rem;
+    height: 8.8rem;
+}
+section.about .row div h2{
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 2.4rem;
+    margin-bottom: .8rem;
+    color: #00448E;
+}
+section.about .row div p{
+    font-size: 2.2rem;
+    width: 26.7rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+section.howto{
+    margin: auto;
+    margin-top: 15.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   width: 150.7rem;
+   padding-right: 1.9rem;
+}
+    section.howto img.main{
+        width: 69.1rem;
+        height: 69.1rem;
+    }
+    section.howto .right h2{
+        margin-bottom: 4.8rem;
+    }
+    section.howto .right {
+        font-weight: 700;
+        color: #00448E;
+        font-size: 4rem;
+        text-align: right;
+    }
+    section.howto .right div{
+        display: flex;
+        
+        flex-direction: row-reverse;
+        width: 79.3rem;
+        height: 13rem;
+        border-radius: 8px;
+background: #FFF;
+/* box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.16); */
+margin-bottom: .8rem;
+align-items: center;
+padding-right: 3rem;
+    }
+section.hero h2,
+        section.howto .right div span{
+            margin-left: 2.2rem;
+            
+        }
+        section.howto .right div img{
+            width: 4.5rem;
+        }
+
+
+        @media screen and (max-width : 1720px) {
+            html{
+                font-size: 59.5%;
+            }
+        }
+        @media screen and (max-width : 1520px) {
+            html{
+                font-size:54.5%;
+            }
+            section.about .row div{
+                margin: 0 5.3rem;
+            }
+        }
+        @media screen and (max-width : 1350px) {
+            html{
+                font-size:54.5%;
+            }
+        }
+        @media screen and (max-width : 1350px) {
+            html {
+                font-size: 48.5%;
+            }
+            section.hero img.main {
+                width: 70.2rem;
+            }
+            section.hero ,
+            section.howto{
+                width: 130.7rem;
+            }
+            section.howto .right div {
+                width: 65.3rem;
+                height: 11rem}
+                section.howto img.main {
+                    width: 60.1rem;
+                    height: auto;
+                }
+        }
+        @media screen and (max-width : 1120px) {
+        html{
+
+        }
+        section.howto .right {
+            font-size: 3rem;
+        }
+        section.howto .right div {
+            width: 56.3rem;
+            height: 11rem;
+        }
+        section.hero{
+            width: 127.7rem;
+        }
+        section.howto {
+            width: 122.7rem;
+        }
+        section.howto .right div span{
+        -webkit-text-stroke: 1px #00448E;
+        
+        }
+        }
+        @media screen and (max-width : 1024px) {
+        html{
+            font-size: 45.5%;
+        }
+        section.howto .right {
+            font-size: 2.5rem;
+        }
+        section.howto .right div {
+            width: 51.3rem;
+            height: 8rem;
+        }
+        section.hero {
+            width: 107.7rem;
+        }
+        section.hero p {
+            width: 42.9rem;
+            text-align:center;
+        }        
+        section.hero img.main {
+            width: 62.2rem;
+        }
+        section.hero img.logo {
+            width: 28.3rem;
+        }        
+        section.howto {
+            width: 109.7rem;
+        }section.howto img.main {
+            width: 53.1rem;
+            height: auto;
+        }
+        
+        }
+        @media screen and (max-width : 870px) {
+            html {
+                font-size: 40.5%;
+            }
+        }
+        @media screen and (max-width : 768px) {
+            section.hero img.main {
+                width: 49.2rem;
+            }
+            section.hero{
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+            }
+            section.hero .headings{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .leftel{
+                display: none;
+            }
+            section.about .row{
+                flex-direction: column;
+            }
+            section.about .row div {
+                margin: 2rem 0;
+            }
+            section.about .aboutText {
+                width: 80vw;}
+                section.howto img.main {
+                    width: 45.1rem;
+                }
+                section.howto{
+                    flex-direction: column;
+                width: 100%;
+
+                }
+                section.howto .right h2{
+                    text-align: center;
+                }
+        }
+        @media screen and (max-width : 550px) {
+            section.hero img.main {
+                width: 42.2rem;
+            }
+            section.hero img.logo {
+                width: 23.3rem;
+            }
+            section.about .aboutText {
+                width: 51.6rem;
+            }
+            section.howto img.main {
+                width: 38.1rem;
+            }
+            section.howto .right div {
+                width: 47.3rem;
+                height: 7rem;
+            }
+            section.howto .right {
+                font-size: 2.2rem;
+            }
+            section.howto .right div img {
+                width: 3.5rem;
+            }
+            div.pageTop {
+               padding-right: 0; 
+            }
+            header{
+                margin-right: 7.4rem;
+            }
+            div.pageTop .contact {
+                justify-content: center;
+            }
+        }
+        @media screen and (max-width : 400px) {
+            .sideel1 {
+                width: 6.6rem;
+            }
+            .sideel3 {
+                bottom: 26.1rem;
+                width: 3.8rem;
+            }
+
+            div.pageTop .contact {
+                justify-content: center;
+                
+            }
+
+            div.pageTop {
+                height: auto;
+            }
+            
+        }

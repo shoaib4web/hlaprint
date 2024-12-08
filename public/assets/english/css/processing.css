@@ -1,0 +1,332 @@
+@media screen and (max-width: 1919px) {
+    body {
+        zoom: 0.8;
+    }
+    html, body {
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        background-image: url('your-background-image.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+/* ShareFile  */
+section {
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    background: url("../img/codebg.png");
+    background-position: center;
+    background-size: cover;
+}
+.dropdown{
+    display: none !important;
+}
+.container {
+    max-width: 171.6rem;
+padding: 0;
+margin-left: .9rem;
+
+}
+section .header {
+    margin-right: 3rem;
+    margin-left: 3rem;
+    padding-top: 5.2rem;
+}
+
+section .header p {
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+section .header .logo {
+    margin-left: auto !important;
+    margin-right: auto;
+    width: 38.6rem;
+    height: 8.3rem;
+}
+
+section .header .contact img {
+    margin-left: 1.7rem;
+    width: 8.1rem;
+    height: 8.1rem;
+}
+
+.processing   .main {
+    margin-top: 16.2rem;
+
+}
+.processing   .main .left{
+    width: 68.2rem;
+    height: 19.3rem;
+    background: #FFFFFF;
+box-shadow: 6.99931px 18.3732px 7.87422px rgba(0, 0, 0, 0.01), 4.37457px 10.499px 6.99931px rgba(0, 0, 0, 0.03), 1.74983px 4.37457px 5.24948px rgba(0, 0, 0, 0.04), 0.874914px 0.874914px 2.62474px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+border-radius: 13.9986px;
+padding-top: 5.1rem;
+padding-left: 5.1rem;
+margin-right: 23.4rem;
+}
+.processing .main .left p{
+    font-size: 5.5rem;
+    line-height: 3.4rem;
+    color: #00448E;
+    margin-bottom: 2.6rem;
+}
+.processing .main  .left h2{
+    font-size: 5.5rem;
+    line-height: 3.4rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #00448E;
+}
+.processing .main  img{
+    width: 44.5rem;
+    height: 50.6rem;
+}
+.processing   .back{
+    width: 96px;
+    height: 86px;
+    background: #00448E;
+    box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    margin-left: 53px !important;
+    display: block;
+    text-decoration: none;
+    margin-top: 93px;
+    margin-right: auto;
+}
+
+
+/* ShareFile  */
+
+@media screen and (max-width : 1920px) {
+    @media screen and (max-height : 1000px) {
+        section .main {
+            margin-top: 9.6rem !important;
+        }
+        .processing .back {
+            margin-top: 9rem;
+        }
+    }
+}
+@media screen and (max-width : 1900px) {
+    section .main {
+        margin-top: 9.6rem !important;
+    }
+    .processing .back {
+        margin-top: 9rem;
+    }
+    .container{
+    padding-bottom: 0;
+    }
+    .bg {
+    top: 0;
+    width: 100%;
+}
+}
+@media screen and (max-width : 1600px) {
+    section .main {
+        margin-top: 7.6rem !important;
+    }
+    .processing .back {
+        margin-top: 5rem;
+    }
+}
+@media screen and (max-width : 1440px) {
+    section .main {
+        margin-top: 5.6rem !important;
+    }
+    .processing .back {
+        margin-top: 4rem;
+    }
+    .processing .main img {
+        width: 37.5rem;
+        height: auto;
+    }
+    .processing .main .left {
+        width: 56.2rem;
+        height: 16.3rem;
+        padding-top: 3.1rem;
+        padding-left: 4.1rem;
+    }
+    .processing .main .left p,
+    .processing .main .left h2{
+        font-size: 4.5rem;
+    }
+}
+@media screen and (max-width : 1400px) {
+    .processing   .back{
+        width: 80px;
+        height: 73px;
+        font-size: 35px;
+    }
+    }
+@media screen and (max-width : 1366px) {
+    html {
+        font-size: 52.5%;
+    }
+    .processing .main .left{
+        margin-right: 19.4rem;
+    }
+}
+@media screen and (max-width : 1280px) {
+    .processing   .back{
+        width: 71px;
+        height: 59px;
+        font-size: 32px;
+    }
+}
+@media screen and (max-width : 1110px) {
+    section .header p {
+        font-size: 2.5rem;
+        line-height: 2.9rem;
+    }
+    section .header .contact img {
+        width: 6.1rem;
+        height: 6.1rem;
+    }
+    .processing .main .right .pos {
+        width: 37.7rem;
+    }
+    .processing .main .right{
+        margin-left: 7rem;
+
+    }
+}
+@media screen and (max-width : 1024px) {
+    section .main {
+        margin-top: 4.6rem !important;
+    }
+    .processing .back {
+        margin-top: 0rem;
+    }
+}
+@media screen and (max-width : 990px) {
+    .processing .back {
+        margin-top: 14rem;
+        width: 43px;
+        margin-left: auto !important;
+        height: 46px;
+        font-size: 20px;
+    }
+section .header .logo {
+    margin-left: 0 !important;
+}
+    section .header p {
+        display: none;
+     }
+     section .header .contact p {
+         position: static;
+         text-align: right;
+         margin-top: 0;
+         margin-bottom:0 ;
+     }
+    .contactPc{
+        display: none !important;
+    }
+    .dropdown{
+        display: flex !important;
+        width: auto;
+    }
+    .dropdown p{
+        display: flex !important;
+
+        position: static !important;
+        padding: 1rem;
+    }
+    .dropdown ul{
+        width: 256px;
+    }
+    .dropdown img{
+        width: 6.1rem;
+        height: 6.1rem;
+    }
+
+    .processing .main{
+        justify-content: center !important;
+    }
+    .processing .main .left{
+        margin-right: 0;
+        text-align: center;
+        padding-left: 0;
+    }
+   
+    section .main {
+        margin-top:5.6rem!important;
+
+        flex-direction: column-reverse !important;
+    }
+    section .main img{
+        margin-bottom: 2rem;
+    }
+    .processing .main img {
+        width: 30.5rem;
+        height: auto;
+    }
+}
+@media screen and (max-width : 576px) {
+    .dropdown{
+        display: none !important;
+    }
+    section .header .logo{
+        margin-left: auto !important;
+        width: 200px;
+        height: auto;
+    }
+    .processing .main .left {
+        width: 47.2rem;
+        height: 14.3rem;
+    }
+    .processing .main .left p, .processing .main .left h2 {
+        font-size: 4rem;
+        line-height: 2.4rem;
+    }
+   
+    .processing .main img {
+        width: 20.5rem;
+        height: auto;
+    }
+
+}
+@media screen and (max-width : 418px) {
+    .processing .main .left p, .processing .main .left h2 {
+        font-size: 3rem;
+        line-height: 2.4rem;
+        margin-bottom: 1.6rem;
+    }
+    .processing .main .left {
+        width: 34.2rem;
+        height: 12.3rem;
+    }
+    .processing .back {
+        margin-top: 13rem;
+    }
+    section .main {
+        margin-top: 3rem!important;
+        flex-direction: column-reverse !important;
+    }
+}

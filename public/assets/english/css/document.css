@@ -1,0 +1,1035 @@
+@media screen and (max-width: 1919px) {
+    body {
+        zoom: 0.8;
+    }
+    html, body {
+        height: 100%;
+        margin: 0;
+      }
+
+      body {
+        background-image: url('your-background-image.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+/* ShareFile  */
+section {
+    height: 100%;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 171.6rem;
+padding: 0;
+margin-left: .9rem;
+    /* padding-bottom: 3rem; */
+}
+
+section .header {
+    padding-top: 3rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+.zoom{
+    display: none;
+    position: absolute;
+    top: 4%;
+    right: -8%;
+}
+.zoom svg{
+    width: 3rem;
+    height: 3rem;
+    
+}
+.zoom .zoomTool{
+    width: auto !important;
+    display: none;
+    flex-direction: column;
+    padding: 1rem;
+    background: white;
+    border-radius: 1rem;
+    height: 10rem !important;
+    justify-content: space-between;
+    position: absolute;
+    top: 5rem;
+}
+section .header p {
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+section .header .logo {
+    margin-left: auto !important;
+    margin-right: 29.2rem;
+    width: 38.6rem;
+    height: 8.3rem;
+
+}
+
+section .header .contact img {
+    margin-left: 1.7rem;
+    width: 8.1rem;
+    height: 8.1rem;
+}
+
+
+
+
+/* ShareFile  */
+
+
+
+
+/* DocumentPage  */
+
+.document{
+    background:  url('../img/documentbg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+
+.document .main{
+    margin-top: 7.4rem;
+}
+.document .main .documents{
+    margin-left: 5.2rem;
+    min-width: 49rem;
+    height: 81.1rem;
+    background: #FFFFFF;
+    box-shadow: 6.99931px 18.3732px 7.87422px rgba(0, 0, 0, 0.01), 4.37457px 10.499px 6.99931px rgba(0, 0, 0, 0.03), 1.74983px 4.37457px 5.24948px rgba(0, 0, 0, 0.04), 0.874914px 0.874914px 2.62474px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 13.9986px;
+    padding-left: 5.4rem;
+    padding-top: 2.7rem;
+    position: relative;
+    padding-bottom: 2.6rem;
+}
+.document .main .documents .top .mainText{
+    font-size: 3.2rem;
+    line-height: 3.4rem;
+    color: #00448E;
+    font-weight: 600;
+    margin-bottom: 3.6rem;
+}
+.document .main .documents .top h2{
+    font-size: 5.5rem;
+    line-height: 3.4rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #00448E;
+}
+.document .main .documents .top .doc{
+    font-size: 1.6rem;
+    line-height: 3.4rem;
+    margin-top: 2.2rem;
+    color: #8A8A8A;
+    font-weight: 500;
+}
+.document .main .documents .top .doc img{
+    width: 2rem;
+    height: 2.4rem;
+    margin-right: .9rem;
+}
+.document .main .documents .documentFiles{
+    max-height: 56.5rem;
+    margin-bottom: 2.9rem;
+    margin-top: 2.7rem;
+    width: 37.9em;
+    position: relative;
+
+}
+.document .main .documents .documentFiles::-webkit-scrollbar:horizontal{
+ display: none;
+}
+.document .main .documents .documentFiles::-webkit-scrollbar{
+    background: #B8B8B8;
+    width: .8rem;
+    border-radius: 1.4rem;
+    /* display: none; */
+}
+.document .main .documents .documentFiles::-webkit-scrollbar-thumb{
+    background: #000;
+}
+.document .main .documents .documentFiles img{
+    width: 54.7rem;
+    height: 24.3rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.document .main .settings{
+    margin-right: 5.6rem;
+    width: 104.6rem;
+    height: 69.3rem;
+    background: #FFFFFF;
+    box-shadow: 6.99931px 18.3732px 7.87422px rgba(0, 0, 0, 0.01), 4.37457px 10.499px 6.99931px rgba(0, 0, 0, 0.03), 1.74983px 4.37457px 5.24948px rgba(0, 0, 0, 0.04), 0.874914px 0.874914px 2.62474px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 13.9986px;
+    padding-top: 3.9rem;
+    padding-left: 6.8rem;
+}
+.document .main .settings .TopHeading{
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    font-weight: 600;
+    width: 100%;
+    border-bottom: 2px solid #60ACFF;
+    padding-top: 1.9rem;
+    padding-bottom: .5rem;
+    padding-right: 3.8rem;
+    left: 0;
+}
+.document .main .settings input{
+width: 3.4rem;
+height: 3.4rem;
+border-radius: 16px;
+margin-right: 1.6rem;
+filter: drop-shadow(8px 21px 9px rgba(0, 0, 0, 0.01)) drop-shadow(5px 12px 8px rgba(0, 0, 0, 0.03)) drop-shadow(2px 5px 6px rgba(0, 0, 0, 0.04)) drop-shadow( 1px 1px 3px rgba(0, 0, 0, 0.05)) drop-shadow( 0px 0px 0px rgba(0, 0, 0, 0.05));
+}
+.document .main .settings p{
+    font-size: 3rem;
+    line-height: 3.9rem;
+color: #00448E;
+margin-right: 13.2rem;
+}
+.document .main .settings p:nth-child(1){
+    font-weight: 500;
+    margin-right: 7.5rem;
+}
+.document .main .settings .options:nth-child(5) .input:nth-child(1) p{
+    margin-right: 22rem;
+}
+.document .main .settings .options:nth-child(5) p:nth-child(1){
+    margin-right: 3.2rem;
+}
+.document .main .settings .options{
+    margin-top: 4.4rem;
+}
+.document .main .settings .Pages .amount,
+.document .main .settings .options .amount{
+    width: auto;
+    border-bottom: 2px solid #60ACFF;
+    text-align: center;
+    margin-left: auto;
+    margin-right: 4.5rem;
+    font-size: 3rem;
+    line-height: 3.4rem;
+    color: #C2C2C2 ;
+    margin-top: .5rem;
+    font-weight: 500;
+}
+.document .main .settings .options:nth-child(1) {
+    margin-top: 0;
+}
+.document .main .settings .options:nth-child(3) {
+    margin-top: 5.1rem;
+}
+.document .main .settings .options:nth-child(2) p:nth-child(1){
+    margin-right: 8.5rem;
+}
+.document .main .settings .options:nth-child(3) p:nth-child(1){
+    margin-right: 9rem;
+}
+.document .main .settings .options:nth-child(2) .input:nth-child(2) p{
+    margin-right: 11rem;
+}
+.document .main .settings .options:nth-child(3) .input:nth-child(2) p{
+    margin-right: 11.3rem;
+}
+
+.document .main .settings .options:nth-child(2) .input:nth-child(1) p{
+    margin-right: 11.4rem;
+}
+.document .main .settings .options:nth-child(3) .input:nth-child(1) p{
+    margin-right: 11.4rem;
+}
+.document .main .settings .Pages {
+    margin-top: 6rem;
+    display: flex;
+}
+.document .main .settings #CopiesNumber{
+    margin-left: 23rem;
+    margin-top: 5rem;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+
+   opacity: 1;
+display: block;
+visibility: visible;
+}
+.dropdown{
+    display: none !important;
+}
+.document .main .settings .Pages .number{
+    width: 9.9rem;
+    height: 5.8rem;
+background: #FFFFFF;
+box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+border-radius: 16px;
+font-size: 3rem;
+line-height: 3.9rem;
+color: #00448E;
+outline: none;
+margin-right: 1rem;
+margin-left: 1rem;
+}
+.document .main .settings .Pages select option{
+    font-size: 12px;
+}
+.document .main .settings .Pages select option::-webkit-outer-spin-button,
+.document .main .settings .Pages select option::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.document .main .settings .Pages p{
+    margin-right: 9.9rem;
+    margin-left: 8.9rem;
+    margin-bottom: 0 !important;
+}
+.document .main .settings .Pages:nth-child(5) {
+    margin-top: 3rem;
+}
+.document .amount {
+    /* margin-left: 2.4rem; */
+    margin-top: 5.6rem;
+    justify-content: space-between !important;
+}
+.document .amount h2{
+    font-size: 5.5rem;
+    line-height: 3.4rem;
+    color: #00448E;
+    font-weight: 600;
+}
+.document .amount h2 span{
+    margin-left: 2.4rem;
+}
+.document .main .documents .documentFiles canvas{
+    width: auto !important;
+    max-height: 100%;
+}
+.document .amount .back{
+    width: 235px;
+    height: 86px;
+box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+border-radius: 16px;
+    font-size: 30px;
+    text-decoration: none;
+    margin-right: 17px;
+    background: red;
+    color: white;
+    border: 0;
+}
+.document .amount .pay{
+    width: 314px;
+    height: 88px;
+    background: #00448E;
+    box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    font-size: 30px;
+line-height: 39px;
+color: #fff;
+font-weight: 500;
+text-decoration: none;
+margin-right: 56px;
+}
+.document .date{
+    margin-top: .6rem !important;
+        font-size: 3rem;
+        line-height: 3.9rem;
+        color: #00448E;
+        text-decoration: none;
+font-weight: 500;
+    }
+
+
+
+    .pagination {
+        position: absolute;
+        bottom: 3%;
+        justify-content: center !important;
+        width: 100%;
+        left: 0;
+    }
+    .pagination img{
+        width: 0.96rem;
+        height: 1.8rem;
+    }
+    .pagination button{
+        background: #00448E;
+        border-radius: 16px;
+        width: 4.8rem;
+        height: 4.8rem;
+        font-size: 2rem;
+        line-height: 3.9rem;
+        color: white;
+        margin-left: 2.7rem;
+        margin-right: 1rem;
+    }
+    .pagination p{
+        font-size: 2rem;
+        line-height: 3.9rem;
+        color: #8A8A8A;
+        margin-bottom: 0;
+    }
+    .pagination .number{
+        margin-left: 2rem;
+        margin-right: 4.5rem;
+    }
+/* DocumentPage  */
+
+@media screen and (max-width : 1920px) {
+    @media screen and (max-height : 1000px) {
+        html {
+            font-size: 58.5%;
+        }
+    }
+}
+@media screen and (max-width : 1880px) {
+    html {
+        font-size: 58.5%;
+    }
+
+}
+@media screen and (max-width : 1600px) {
+    .document .main .settings .options:nth-child(5) .input:nth-child(1) p {
+        margin-right:20.4rem;
+    }
+    .document .main .settings .options:nth-child(5) p:nth-child(1) {
+        margin-right: 3.8rem;
+    }
+    .document .main .settings .Pages {
+        margin-top: 4rem;
+    }
+    .document .main{
+        justify-content: center !important;
+    }
+    .document .main .settings {
+    height: 58.3rem;
+    width: 94.6rem;
+    margin-left: 3rem;
+    padding-left: 2.8rem;
+    }
+    .document .main .settings .Pages:nth-child(5),
+    .document .main .settings .options {
+        margin-top: 3.1rem !important;
+    }
+    .document .main .documents{
+        height: 70.1rem;
+        min-width: 45rem;
+        padding-left: 3.4rem;
+    }
+    .document .main .documents div:nth-child(2){
+        height: 46.5rem;
+    }
+    .document .main .documents div:nth-child(2){
+        height:51.5rem!important;
+    }
+    .document .amount {
+        margin-left: 2.4rem;
+    }
+    .document .amount .back {
+        width: 200px;
+    }
+    .document .amount .pay {
+        width: 290px;
+    }
+    .document .main .settings .Pages:nth-child(5), .document .main .settings .options {
+        margin-top: 3rem !important;
+    }
+}
+@media screen and (max-width : 1440px) {
+    html {
+        font-size: 52.5%;
+    }
+    .document .amount .pay {
+        width: 260px;
+    }
+    .document .amount .back {
+        width: 170px;
+    }
+}
+@media screen and (max-width : 1400px) {
+    .document .amount .back{
+    height: 73px;
+    font-size: 25px;
+    }
+    .document .amount .pay{
+        width: 261px;
+        height: 73px;
+        font-size: 25px;
+    }
+}
+@media screen and (max-width : 1366px) {
+    html {
+        font-size: 47.5%;
+    }
+    .document .main {
+        margin-top: 5.4rem;
+    }
+    .document .main .settings {
+        height: auto;
+        padding-bottom: 2rem;
+        }
+    .document .main .settings .options:nth-child(5) p:nth-child(1) {
+        margin-right: 0.8rem;
+    }
+    .document .main .settings .options:nth-child(5) .input:nth-child(1) p {
+        margin-right: 17rem;
+    }
+    .document .amount:nth-child(2){
+        margin-top: 4rem !important;
+    }
+    .document .main .settings .Pages:nth-child(5),
+    .document .main .settings .options {
+        margin-top: 3.1rem !important;
+    }
+    .document .main .settings .options:nth-child(2) {
+        margin-top: 5.1rem !important;
+    }
+    .document .main .settings {
+        /* height: 52.3rem; */
+        width: 90.6rem;
+
+    }
+    
+    .document .amount h2 {
+        font-size: 4.5rem;
+    }
+    .document .main .settings .options:nth-child(2) p:nth-child(1) {
+        margin-right: 5.5rem;
+    }
+    .document .main .settings .options:nth-child(3) p:nth-child(1) {
+        margin-right: 6.3rem;
+    }
+    .document .main .settings p:nth-child(1) {
+        margin-right: 4.9rem;
+    }
+    .document .main .settings .options:nth-child(2) .input:nth-child(2) p {
+        margin-right: 7.2rem;
+    }
+    .document .main .settings .options:nth-child(3) .input:nth-child(2) p {
+        margin-right: 7.3rem;
+    }
+    .document .main .settings p {
+        margin-right: 8.8rem;
+    }
+    .document .main .settings .options:nth-child(3) .input:nth-child(1) p {
+        margin-right: 7.4rem;
+    }
+    .document .main .settings .options:nth-child(2) .input:nth-child(1) p {
+        margin-right: 7.8rem;
+    }
+    .document .main .settings #CopiesNumber {
+        margin-left: 17rem;
+    }
+    .document .main .settings .Pages .number
+    {
+        font-size: 2.5rem;
+        width: 6.9rem;
+        height: 4.8rem;
+        border-radius: 1.6rem;
+    }
+    .document .main .documents{
+        height: 62.5rem;
+
+    }
+    .document .main .documents div:nth-child(2){
+        height:42.5rem!important;
+    }
+    .document .main .documents div:nth-child(2) .documentFiles {
+        max-height: 100%;
+    }
+    .document .main .documents .top .mainText {
+        font-size: 3rem;
+    }
+    section .header .logo{
+        margin-right: auto;
+    }
+    .document .amount .back {
+        width: 162px;
+    }
+    .document .amount .pay {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width : 1280px) {
+    .document .amount .back{
+        height: 59px;
+        font-size: 21px;
+    }
+    .document .amount .pay{
+        width: 188px;
+        height: 59px;
+        font-size: 21px;
+    }
+}
+@media screen and (max-width : 1100px) {
+    html {
+        font-size: 42.5%;
+    }
+    .document .main .settings .options:nth-child(5) .input:nth-child(1) p {
+        margin-right: 13rem;
+    }
+    .document .amount .back {
+        width: 100px;
+    }
+    .document .amount .pay {
+        width: 156px;
+    }
+    .document .amount h2 {
+        font-size: 4rem;
+    }
+    .document .main .settings .options:nth-child(2) p:nth-child(1) {
+        margin-right: 5.4rem;
+    }
+    .document .main .settings .options:nth-child(3) p:nth-child(1) {
+        margin-right: 5.7rem;
+    }
+    .document .main .settings p:nth-child(1) {
+        margin-right: 4.5rem;
+    }
+    .document .main .settings .options:nth-child(2) .input:nth-child(2) p {
+        margin-right: 5.2rem;
+    }
+    .document .main .settings .options:nth-child(3) .input:nth-child(2) p {
+        margin-right: 5.3rem;
+    }
+    .document .main .settings p {
+        margin-right: 5.8rem;
+    }
+    .document .main .settings #CopiesNumber {
+        margin-left: 15rem;
+    }
+    .document .main .settings p{
+        font-size: 2.5rem;
+    }
+    .document .main .settings {
+        width: 78.6rem;
+    }
+    .document .main .settings .options:nth-child(3) .input:nth-child(1) p {
+        margin-right: 4.4rem;
+    }
+    .document .main .settings .options:nth-child(2) .input:nth-child(1) p {
+        margin-right: 4.8rem;
+    }
+
+   
+    
+    .document .main .settings .Pages:nth-child(5), .document .main .settings .options {
+        margin-top: 2.1rem !important;
+    }
+    .document .main .documents {
+        height: 60.5rem;
+        min-width: 40rem;
+    }
+    .document .main .documents div:nth-child(2) {
+        height: 41.5rem!important;
+        width: 32.9rem !important
+    }
+
+}
+
+
+@media screen and (max-width : 990px) {
+.document .amount .back{
+    width: 190px;
+    font-size: 18px;
+    height: 46px;
+    border-radius: 11px;
+    }
+section {
+height: auto;
+overflow: visible;
+}
+.document .amount {
+    margin-left: 0;
+}
+    .document .amount .pay{
+        width: 190px;
+        height: 48px;
+        font-size: 20px;
+        border-radius: 11px;
+    }
+    section .header {
+        position: relative;
+    }
+    section .header p {
+       display: none;
+    }
+    section .header .contact p {
+        position: static;
+        text-align: right;
+        margin-top: 0;
+        margin-bottom:0 ;
+    }
+    section .header .logo{
+        margin-left: 0 !important;
+    }
+    .contactPc{
+        display: none !important;
+    }
+    .dropdown{
+        display: flex !important;
+        width: auto;
+    }
+    .dropdown p{
+        display: flex !important;
+
+        position: static !important;
+        padding: 1rem;
+    }
+    .dropdown ul{
+        width: 250px;
+    }
+    .dropdown img{
+        width: 6.1rem;
+        height: 6.1rem;
+    }
+    .document .main .settings{
+       margin-top: 5rem;
+    }
+    .document .amount h2{
+        display: none !important;
+    }
+    .document .main{
+        flex-direction: column;
+    }
+    .document .main .documents {
+        height: 73.5rem;
+        min-width: 48rem;
+        margin-left: 0;
+    }
+    .document .amount .back{
+        margin-left: 0;
+    }
+    .document .main .documents div:nth-child(2) {
+        height: 52.5rem!important;
+        width: 40.9rem !important;
+    }
+    .document .main{
+        align-items: center !important;
+    }
+}
+@media screen and (max-width : 576px) {
+
+    .dropdown{
+        display: none !important;
+    }
+    section .header .logo{
+        margin-left: auto !important;
+        width: 200px;
+    height: auto;
+    }
+    .document .amount .pay{
+        margin-right: 0;
+    }
+    .document .main .settings .options  .input p{
+        margin-right: 0 !important;
+    }
+}
+@media screen and (max-width : 428px) {
+    
+}
+@media screen and (max-width : 375px) {
+    .document .main .documents div:nth-child(2) {
+        height: 45.5rem!important;
+        width: 36.9rem !important;
+    }
+    .document .main .documents {
+        height: 64.5rem;
+        min-width: 44rem;
+        margin-left: 0;
+    }
+}
+@media screen and (max-width : 384px) {
+    .document .main {
+        margin-top: 2rem;
+    }
+    .document .amount:nth-child(2) {
+        margin-top: 2rem !important;
+    }
+    .document .main .documents {
+        height: 69.5rem;
+    }
+    .document .main .documents div:nth-child(2) {
+        height: 49.5rem!important;
+    }
+}
+@media screen and (max-width : 320px) {
+
+    .document .main .documents .top .mainText {
+        font-size: 2.5rem;
+    }
+
+
+    .document .amount:nth-child(2) {
+        margin-top: 2rem !important;
+    margin-left: 0;
+    }
+}
+
+
+
+
+/* /////////////////////////////// */
+/* SETTINGS PAGE  */
+
+@media screen and (max-width : 990px) {
+    .container{
+        padding-bottom: 4rem;
+    }
+    .document .main .settings {
+        width: 80.6rem;
+    }
+    .document .main .settings{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .document .amount{
+        justify-content: center !important;
+    }
+    .document .main .settings .Pages:nth-child(5), .document .main .settings .options {
+        margin-top: 6.1rem !important;
+    }
+    .document .main .settings {
+        /* height: 66.3rem; */
+    }
+    .document .amount .pay{
+        margin-right: 0;
+    }
+}
+@media screen and (max-width : 576px) {
+    .document .main .settings #CopiesNumber .d-flex:nth-child(2) .position-relative{
+        margin-left: 3.3rem;
+    }
+    .document .main .settings p {
+        margin-bottom: 2.5rem;
+    }
+    .document .main .settings .fle-column{
+        flex-direction: column !important;
+    }
+    .document .main .settings .Pages:nth-child(5), .document .main .settings .options {
+        margin-top: 3rem !important;
+    }
+
+    .document .main .settings #CopiesNumber {
+        margin-left: 8rem;
+        margin-top: 2rem !important;
+    }
+    .document .main .settings .Pages p:nth-child(1) {
+        margin-right: 3.6rem !important;
+    }
+    .document .main .settings #CopiesNumber p{
+        margin-left: 0 !important;
+        margin-bottom: 2rem;
+        margin-right: 2rem !important;
+    }
+    .document .main .settings #CopiesNumber .d-flex{
+        align-items: flex-start;
+    }
+    .document .main .settings .Pages {
+        margin-top: 2rem;
+    }
+    .document .main .settings {
+        height: 83.3rem;
+    }
+    .document .main .settings .options:nth-child(2) p:nth-child(1) {
+        margin-right: 9.5rem;
+    }
+    .document .main .settings .options:nth-child(2) p:nth-child(1) {
+        margin-right: 9.5rem;
+    }
+    .document .main .settings p:nth-child(1) {
+        margin-right: 8.9rem;
+    }
+    .document .main .settings .options:nth-child(3) p:nth-child(1) {
+        margin-right: 10.3rem;
+    }
+    .document .main .settings {
+        width: 65.6rem;
+    }
+    .document .main .settings #CopiesNumber .fle-column .d-flex:nth-child(1){
+        margin-bottom: 2rem !important;
+    }
+    .document .main .settings .Pages .amount, .document .main .settings .options .amount
+    {
+        display: flex;
+        align-items: center;
+    }
+    .document .main .settings .options:nth-child(5) p:nth-child(1) {
+        margin-right: 4.8rem;
+    }
+}
+@media screen and (max-width : 480px) {
+    .zoom{
+        display: flex;
+    }
+    .document .main .settings .input p{
+        margin-right: 0;
+    }
+    .document .main .settings .options:nth-child(2) p:nth-child(1) {
+        margin-right: 6.5rem;
+    }
+    .document .main .settings .options:nth-child(3) p:nth-child(1) {
+        margin-right: 7.3rem;
+    }
+    .document .main .settings p:nth-child(1) {
+        margin-right: 5.9rem;
+    }
+    .document .main .settings .options:nth-child(5) p:nth-child(1) {
+        margin-right: 1.8rem;
+    }
+    .document .main .settings input {
+        width: 2.4rem;
+    }
+    .document .main .settings #CopiesNumber {
+        margin-top: 1rem !important;
+    }
+    .document .main .settings .Pages .number p {
+        font-size: 2.5rem !important;
+    }
+    .document .main .settings .Pages:nth-child(5), .document .main .settings .options {
+        margin-top: 1rem !important;
+    }
+    .document .main .settings {
+        height: 79.3rem;
+        width: 55.6rem;
+    }
+    .document .main .settings .Pages p:nth-child(1) {
+        margin-right: 4.5rem !important;
+    }
+    .document .amount .back {
+        width: 146px;
+    }
+    .document .amount .pay{
+        width: 146px;
+    }
+
+}
+@media screen and (max-width : 418px) {
+    .document .main .settings{
+        padding-left: 1.5rem;
+    }
+    .document .main .settings p:nth-child(1) {
+        margin-right:5rem;
+    }
+    .document .main .settings .options:nth-child(3) p:nth-child(1) {
+        margin-right:6rem;
+    }
+    .document .main .settings .options:nth-child(2) p:nth-child(1) {
+        margin-right: 5.5rem;
+    }
+    .document .main .settings #CopiesNumber .d-flex:nth-child(2) .position-relative {
+        margin-left: 2.96rem;
+    }
+    .document .main .settings  p{
+        font-size: 2.2rem !important;
+    }
+    
+    .document .main .settings .Pages .number {
+        width: 5.9rem;
+        height: 3.8rem;
+        border-radius: 1rem;
+    }
+    .document .main .settings #CopiesNumber p {
+        margin-left: 0 !important;
+    }
+    .document .main .settings {
+        width: 48.6rem;
+    }
+}
+
+@media screen and (max-width : 384px) {
+    .document .main .settings .Pages {
+        margin-top: 1.5rem;
+    }
+    .document .main .settings{
+        padding-top: 2.9rem;
+    }
+    .document .main .settings .Pages .amount, .document .main .settings .options .amount{
+        margin-right: 1rem;
+        width: 7.5rem;
+    }
+    .document .main .settings {
+        width: 42.6rem;
+    }
+    .document .amount .back {
+        width: 115px;
+    }
+}
+
+
+
+/**===================================
+        RESPONSIVE CODE PAGE
+====================================**/
+@media only screen and (min-width : 1920px) {/* to 1366px */
+}
+@media only screen and (max-width : 1650px) {
+    .document .main .documents .top .mainText {
+        font-size: 3rem;
+    }
+    .document .main .settings p {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .document .main .settings input {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+}
+@media only screen and (max-width : 1365px) { /* to 1024 */
+}
+@media only screen and (max-width : 1024px) { /* to 980 */
+}
+@media only screen and (max-width : 990px) { /* to 800 */
+    
+    section.document .documents canvas {
+        width: 100% !important;
+        height: auto !important;
+        /* padding: 5px; */
+    }
+}
+@media only screen and (max-width : 840px) {
+}
+@media only screen and (max-width : 799px) { /* to 768 */
+}
+@media only screen and (max-width : 768px) { /* to 600 */
+}
+@media only screen and (max-width : 760px) { /* to 600 */
+}
+@media only screen and (max-width : 599px) { /* to 480 */
+}
+@media only screen and (max-width : 479px) { /* to 375 */
+}
+@media only screen and (max-width : 390px) { /* to 360 */
+}
+@media only screen and (max-width : 340px) {
+}
+@media only screen and (max-width : 359px) { /* to 320 */
+}
