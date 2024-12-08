@@ -1,0 +1,4 @@
+[09-Nov-2023 11:59:42 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[09-Nov-2023 11:59:42 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+[09-Nov-2023 12:00:12 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[09-Nov-2023 12:00:12 UTC] PHP Warning:  Module "intl" is already loaded in Unknown on line 0
