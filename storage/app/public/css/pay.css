@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+/* ShareFile  */
+section {
+    height: 108rem;
+    overflow: hidden;
+    background: url("../img/sharebg.png");
+}
+
+.container {
+    max-width: 169.8rem;
+padding: 0;
+margin-left: .9rem;
+    padding-bottom: 3rem;
+}
+
+section .header {
+
+    padding-top: 3rem;
+}
+
+section .header p {
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+section .header .logo {
+    margin-left: 38.4rem !important;
+    margin-right: 42.3rem;
+    width: 38.6rem;
+    height: 8.3rem;
+}
+
+
+
+
+/* ShareFile  */
+
+
+/* PAYMENTFILE  */
+
+.pay .header .language{
+    
+}
+.pay .header .language button{
+    width: 10.8rem;
+    height: 9.2rem;
+    background: #FFFFFF;
+    box-shadow: 3.17005px 8.32137px 3.5663px rgba(0, 0, 0, 0.01), 1.98128px 4.75507px 3.17005px rgba(0, 0, 0, 0.03), 0.792512px 1.98128px 2.37754px rgba(0, 0, 0, 0.04), 0.396256px 0.396256px 1.18877px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 6.34009px;
+    border: 0;
+}
+.pay .header .language button:nth-child(1){
+    margin-right: 2.4rem;
+}
+.pay .header .language button p{
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+margin-top: 1rem;
+}
+.pay .header .language button img{
+    width: 4.1rem;
+    height: 2.6rem;
+}
+.pay .main {
+    margin-top: 9rem;
+}
+.pay .main .left p{
+    font-size: 2.4rem;
+    line-height: 3.4rem;
+    color: #00448E;
+    margin-top: 3.2rem;
+}
+.pay .main .left{
+    width: 52rem;
+    height: 69.6rem;
+    background: #FFFFFF;
+    box-shadow: 6.99931px 18.3732px 7.87422px rgba(0, 0, 0, 0.01), 4.37457px 10.499px 6.99931px rgba(0, 0, 0, 0.03), 1.74983px 4.37457px 5.24948px rgba(0, 0, 0, 0.04), 0.874914px 0.874914px 2.62474px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 13.9986px;
+    padding-left: 5.1rem;
+    padding-top: 5.1rem;
+    padding-bottom: 2.6rem;
+}
+
+.pay .main .top p{
+    font-size: 5.5rem;
+    line-height: 3.4rem;
+    color: #00448E;
+    margin-bottom: 2.6rem;
+    margin-top: 0;
+}
+.pay .main .top .applepay{
+    margin-top: 6rem;
+}
+.pay .main  .top h2{
+    font-size: 5.5rem;
+    line-height: 3.4rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #00448E;
+}
+.pay .main  .top button{
+    
+    width: 14.1rem;
+    height: 10rem;
+box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+border-radius: 16px;
+background: #FFFFFF;
+border: 0;
+margin-top: 3rem;
+border: 2px solid;
+border-image-source: linear-gradient(360deg, #D5DAF8 -36.71%, #60ACFF 105.07%);
+
+}
+.pay .main  .top .applepay button{
+    margin-top: 3.3rem;
+}
+
+.pay .main  .applepay{
+    margin-top: 6rem;
+}
+.pay .main  .right{
+margin-top: 6rem;
+margin-left: 45rem;
+}
+.pay .main  .right .pos{
+}
+.pay .main  .right h2{
+    margin-left: 3rem;
+    margin-top: 2.9rem;
+    font-size: 5.5rem;
+    line-height: 3.4rem;
+    color: #00448E;
+    font-weight: 600;
+}
+.pay .main  .right h2 span{
+    margin-left: 2.4rem;
+}
+.pay   .back{
+    width: 9.6rem;
+    height: 8.6rem;
+    background: #00448E;
+    box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    font-size: 3rem;
+    text-decoration: none;
+    color: white;
+    margin-left: 5.4rem;
+    margin-right: 1.7rem;
+    display: block;
+text-decoration: none;
+    margin-top: .5rem;
+}
+
+
+.pay .date{
+    margin-top: .6rem !important;
+        font-size: 3rem;
+        line-height: 3.9rem;
+        color: #00448E;
+        text-decoration: none;
+        font-weight: 500;
+    }
+/* PAYMENTFILE  */
+

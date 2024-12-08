@@ -1,0 +1,28 @@
+Array
+(
+    [tran_ref] => SFT2409608017233
+    [tran_type] => Sale
+    [cart_id] => 437_0ccd
+    [cart_description] => Print order for HLAprint #437
+    [cart_currency] => SAR
+    [cart_amount] => 1.15
+    [tran_total] => 0
+    [callback] => https://hlaprint.com/handle-payment-response
+    [return] => https://hlaprint.com/handle-payment-end/437/arabic
+    [redirect_url] => https://secure.clickpay.com.sa/payment/wr/5CE3A8A182E07DE052E214A6D93D017CDF38288A2EB65CB0688275F7
+    [customer_details] => Array
+        (
+            [name] => Naif Alhassoun
+            [email] => customer@hlaprint.com
+            [street1] => Unknown
+            [city] => Riyadh
+            [state] => 01
+            [country] => SA
+            [ip] => 158.101.231.238
+        )
+
+    [serviceId] => 2
+    [profileId] => 43626
+    [merchantId] => 2932
+    [trace] => PMNT0302.66106DB8.000E55A3
+)

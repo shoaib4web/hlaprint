@@ -1,0 +1,1 @@
+grant_type=client_credentials&client_id=cdc7500e-a452-4389-ac6e-5dd134d87428&client_secret=ab70885c5908c1e87a4760fb2df25cb7

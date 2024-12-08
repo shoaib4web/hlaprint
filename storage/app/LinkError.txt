@@ -1,0 +1,397 @@
+Illuminate\Http\Client\Response Object
+(
+    [response:protected] => GuzzleHttp\Psr7\Response Object
+        (
+            [reasonPhrase:GuzzleHttp\Psr7\Response:private] => OK
+            [statusCode:GuzzleHttp\Psr7\Response:private] => 200
+            [headers:GuzzleHttp\Psr7\Response:private] => Array
+                (
+                    [Content-Type] => Array
+                        (
+                            [0] => text/javascript; charset=UTF-8
+                        )
+
+                    [Vary] => Array
+                        (
+                            [0] => Origin
+                        )
+
+                    [x-business-use-case-usage] => Array
+                        (
+                            [0] => {"132104813321092":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+                        )
+
+                    [Access-Control-Allow-Origin] => Array
+                        (
+                            [0] => *
+                        )
+
+                    [facebook-api-version] => Array
+                        (
+                            [0] => v16.0
+                        )
+
+                    [Strict-Transport-Security] => Array
+                        (
+                            [0] => max-age=15552000; preload
+                        )
+
+                    [Pragma] => Array
+                        (
+                            [0] => no-cache
+                        )
+
+                    [Cache-Control] => Array
+                        (
+                            [0] => private, no-cache, no-store, must-revalidate
+                        )
+
+                    [Expires] => Array
+                        (
+                            [0] => Sat, 01 Jan 2000 00:00:00 GMT
+                        )
+
+                    [x-fb-request-id] => Array
+                        (
+                            [0] => A8TpunDuyQNS8f4FAnU9DKU
+                        )
+
+                    [x-fb-trace-id] => Array
+                        (
+                            [0] => CReaW6zSWfW
+                        )
+
+                    [x-fb-rev] => Array
+                        (
+                            [0] => 1009849143
+                        )
+
+                    [X-FB-Debug] => Array
+                        (
+                            [0] => XhHEvfIeUKpfiRY5PCIABVp0G7uyB3YmNzZ8bfPJPIMHKRWhXstw19RT80G/dl0FZ2kNWwJ/vH8Ys5xpOfKLNQ==
+                        )
+
+                    [Date] => Array
+                        (
+                            [0] => Sun, 12 Nov 2023 12:34:38 GMT
+                        )
+
+                    [Alt-Svc] => Array
+                        (
+                            [0] => h3=":443"; ma=86400
+                        )
+
+                    [Connection] => Array
+                        (
+                            [0] => keep-alive
+                        )
+
+                    [Content-Length] => Array
+                        (
+                            [0] => 178
+                        )
+
+                )
+
+            [headerNames:GuzzleHttp\Psr7\Response:private] => Array
+                (
+                    [content-type] => Content-Type
+                    [vary] => Vary
+                    [x-business-use-case-usage] => x-business-use-case-usage
+                    [access-control-allow-origin] => Access-Control-Allow-Origin
+                    [facebook-api-version] => facebook-api-version
+                    [strict-transport-security] => Strict-Transport-Security
+                    [pragma] => Pragma
+                    [cache-control] => Cache-Control
+                    [expires] => Expires
+                    [x-fb-request-id] => x-fb-request-id
+                    [x-fb-trace-id] => x-fb-trace-id
+                    [x-fb-rev] => x-fb-rev
+                    [x-fb-debug] => X-FB-Debug
+                    [date] => Date
+                    [alt-svc] => Alt-Svc
+                    [connection] => Connection
+                    [content-length] => Content-Length
+                )
+
+            [protocol:GuzzleHttp\Psr7\Response:private] => 1.1
+            [stream:GuzzleHttp\Psr7\Response:private] => GuzzleHttp\Psr7\Stream Object
+                (
+                    [stream:GuzzleHttp\Psr7\Stream:private] => Resource id #534
+                    [size:GuzzleHttp\Psr7\Stream:private] => 
+                    [seekable:GuzzleHttp\Psr7\Stream:private] => 1
+                    [readable:GuzzleHttp\Psr7\Stream:private] => 1
+                    [writable:GuzzleHttp\Psr7\Stream:private] => 1
+                    [uri:GuzzleHttp\Psr7\Stream:private] => php://temp
+                    [customMetadata:GuzzleHttp\Psr7\Stream:private] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [decoded:protected] => 
+    [cookies] => GuzzleHttp\Cookie\CookieJar Object
+        (
+            [cookies:GuzzleHttp\Cookie\CookieJar:private] => Array
+                (
+                )
+
+            [strictMode:GuzzleHttp\Cookie\CookieJar:private] => 
+        )
+
+    [transferStats] => GuzzleHttp\TransferStats Object
+        (
+            [request:GuzzleHttp\TransferStats:private] => GuzzleHttp\Psr7\Request Object
+                (
+                    [method:GuzzleHttp\Psr7\Request:private] => POST
+                    [requestTarget:GuzzleHttp\Psr7\Request:private] => 
+                    [uri:GuzzleHttp\Psr7\Request:private] => GuzzleHttp\Psr7\Uri Object
+                        (
+                            [scheme:GuzzleHttp\Psr7\Uri:private] => https
+                            [userInfo:GuzzleHttp\Psr7\Uri:private] => 
+                            [host:GuzzleHttp\Psr7\Uri:private] => graph.facebook.com
+                            [port:GuzzleHttp\Psr7\Uri:private] => 
+                            [path:GuzzleHttp\Psr7\Uri:private] => /v16.0/126050650596991/messages/
+                            [query:GuzzleHttp\Psr7\Uri:private] => 
+                            [fragment:GuzzleHttp\Psr7\Uri:private] => 
+                            [composedComponents:GuzzleHttp\Psr7\Uri:private] => https://graph.facebook.com/v16.0/126050650596991/messages/
+                        )
+
+                    [headers:GuzzleHttp\Psr7\Request:private] => Array
+                        (
+                            [Content-Length] => Array
+                                (
+                                    [0] => 568
+                                )
+
+                            [User-Agent] => Array
+                                (
+                                    [0] => GuzzleHttp/7
+                                )
+
+                            [Content-Type] => Array
+                                (
+                                    [0] => application/json
+                                )
+
+                            [Host] => Array
+                                (
+                                    [0] => graph.facebook.com
+                                )
+
+                            [Authorization] => Array
+                                (
+                                    [0] => Bearer EAAlAigYje8QBO59eGxviZCxydg1ulQ3T6gaZCfQlkdOBRZCxLw9NRbcKCcjAZCTVx9Wr57IwSPkYAnkXTrER0FVUZASotyzcZCld0wSFqqL5gT1cZAXjGN9uEsmPXeQRVQYqXgUWwRfS3YLQCvttTJG2fjDgsOZAedzhSNSKNiZAOoM3hvrd7xbAuOus1McjkpGwZA
+                                )
+
+                        )
+
+                    [headerNames:GuzzleHttp\Psr7\Request:private] => Array
+                        (
+                            [content-length] => Content-Length
+                            [user-agent] => User-Agent
+                            [content-type] => Content-Type
+                            [host] => Host
+                            [authorization] => Authorization
+                        )
+
+                    [protocol:GuzzleHttp\Psr7\Request:private] => 1.1
+                    [stream:GuzzleHttp\Psr7\Request:private] => GuzzleHttp\Psr7\Stream Object
+                        (
+                            [stream:GuzzleHttp\Psr7\Stream:private] => Resource id #524
+                            [size:GuzzleHttp\Psr7\Stream:private] => 568
+                            [seekable:GuzzleHttp\Psr7\Stream:private] => 1
+                            [readable:GuzzleHttp\Psr7\Stream:private] => 1
+                            [writable:GuzzleHttp\Psr7\Stream:private] => 1
+                            [uri:GuzzleHttp\Psr7\Stream:private] => php://temp
+                            [customMetadata:GuzzleHttp\Psr7\Stream:private] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [response:GuzzleHttp\TransferStats:private] => GuzzleHttp\Psr7\Response Object
+                (
+                    [reasonPhrase:GuzzleHttp\Psr7\Response:private] => OK
+                    [statusCode:GuzzleHttp\Psr7\Response:private] => 200
+                    [headers:GuzzleHttp\Psr7\Response:private] => Array
+                        (
+                            [Content-Type] => Array
+                                (
+                                    [0] => text/javascript; charset=UTF-8
+                                )
+
+                            [Vary] => Array
+                                (
+                                    [0] => Origin
+                                )
+
+                            [x-business-use-case-usage] => Array
+                                (
+                                    [0] => {"132104813321092":[{"type":"whatsapp","call_count":1,"total_cputime":1,"total_time":1,"estimated_time_to_regain_access":0}]}
+                                )
+
+                            [Access-Control-Allow-Origin] => Array
+                                (
+                                    [0] => *
+                                )
+
+                            [facebook-api-version] => Array
+                                (
+                                    [0] => v16.0
+                                )
+
+                            [Strict-Transport-Security] => Array
+                                (
+                                    [0] => max-age=15552000; preload
+                                )
+
+                            [Pragma] => Array
+                                (
+                                    [0] => no-cache
+                                )
+
+                            [Cache-Control] => Array
+                                (
+                                    [0] => private, no-cache, no-store, must-revalidate
+                                )
+
+                            [Expires] => Array
+                                (
+                                    [0] => Sat, 01 Jan 2000 00:00:00 GMT
+                                )
+
+                            [x-fb-request-id] => Array
+                                (
+                                    [0] => A8TpunDuyQNS8f4FAnU9DKU
+                                )
+
+                            [x-fb-trace-id] => Array
+                                (
+                                    [0] => CReaW6zSWfW
+                                )
+
+                            [x-fb-rev] => Array
+                                (
+                                    [0] => 1009849143
+                                )
+
+                            [X-FB-Debug] => Array
+                                (
+                                    [0] => XhHEvfIeUKpfiRY5PCIABVp0G7uyB3YmNzZ8bfPJPIMHKRWhXstw19RT80G/dl0FZ2kNWwJ/vH8Ys5xpOfKLNQ==
+                                )
+
+                            [Date] => Array
+                                (
+                                    [0] => Sun, 12 Nov 2023 12:34:38 GMT
+                                )
+
+                            [Alt-Svc] => Array
+                                (
+                                    [0] => h3=":443"; ma=86400
+                                )
+
+                            [Connection] => Array
+                                (
+                                    [0] => keep-alive
+                                )
+
+                            [Content-Length] => Array
+                                (
+                                    [0] => 178
+                                )
+
+                        )
+
+                    [headerNames:GuzzleHttp\Psr7\Response:private] => Array
+                        (
+                            [content-type] => Content-Type
+                            [vary] => Vary
+                            [x-business-use-case-usage] => x-business-use-case-usage
+                            [access-control-allow-origin] => Access-Control-Allow-Origin
+                            [facebook-api-version] => facebook-api-version
+                            [strict-transport-security] => Strict-Transport-Security
+                            [pragma] => Pragma
+                            [cache-control] => Cache-Control
+                            [expires] => Expires
+                            [x-fb-request-id] => x-fb-request-id
+                            [x-fb-trace-id] => x-fb-trace-id
+                            [x-fb-rev] => x-fb-rev
+                            [x-fb-debug] => X-FB-Debug
+                            [date] => Date
+                            [alt-svc] => Alt-Svc
+                            [connection] => Connection
+                            [content-length] => Content-Length
+                        )
+
+                    [protocol:GuzzleHttp\Psr7\Response:private] => 1.1
+                    [stream:GuzzleHttp\Psr7\Response:private] => GuzzleHttp\Psr7\Stream Object
+                        (
+                            [stream:GuzzleHttp\Psr7\Stream:private] => Resource id #534
+                            [size:GuzzleHttp\Psr7\Stream:private] => 
+                            [seekable:GuzzleHttp\Psr7\Stream:private] => 1
+                            [readable:GuzzleHttp\Psr7\Stream:private] => 1
+                            [writable:GuzzleHttp\Psr7\Stream:private] => 1
+                            [uri:GuzzleHttp\Psr7\Stream:private] => php://temp
+                            [customMetadata:GuzzleHttp\Psr7\Stream:private] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [transferTime:GuzzleHttp\TransferStats:private] => 0.648579
+            [handlerStats:GuzzleHttp\TransferStats:private] => Array
+                (
+                    [url] => https://graph.facebook.com/v16.0/126050650596991/messages/
+                    [content_type] => text/javascript; charset=UTF-8
+                    [http_code] => 200
+                    [header_size] => 773
+                    [request_size] => 946
+                    [filetime] => -1
+                    [ssl_verify_result] => 0
+                    [redirect_count] => 0
+                    [total_time] => 0.648579
+                    [namelookup_time] => 0.000544
+                    [connect_time] => 0.078515
+                    [pretransfer_time] => 0.172997
+                    [size_upload] => 568
+                    [size_download] => 178
+                    [speed_download] => 274
+                    [speed_upload] => 876
+                    [download_content_length] => 178
+                    [upload_content_length] => 568
+                    [starttransfer_time] => 0.647277
+                    [redirect_time] => 0
+                    [redirect_url] => 
+                    [primary_ip] => 31.13.86.8
+                    [certinfo] => Array
+                        (
+                        )
+
+                    [primary_port] => 443
+                    [local_ip] => 185.207.31.125
+                    [local_port] => 50206
+                    [http_version] => 2
+                    [protocol] => 2
+                    [ssl_verifyresult] => 0
+                    [scheme] => HTTPS
+                    [appconnect_time_us] => 172917
+                    [connect_time_us] => 78515
+                    [namelookup_time_us] => 544
+                    [pretransfer_time_us] => 172997
+                    [redirect_time_us] => 0
+                    [starttransfer_time_us] => 647277
+                    [total_time_us] => 648579
+                    [appconnect_time] => 0.172917
+                )
+
+            [handlerErrorData:GuzzleHttp\TransferStats:private] => 0
+        )
+
+)

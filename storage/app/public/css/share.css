@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+/* ShareFile  */
+section {
+    background: url('../img/sharebg.png');
+    height: 108rem;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 169.8rem;
+padding: 0;
+margin-left: .9rem;
+    padding-bottom: 9.1rem;
+}
+
+section .header {
+
+    padding-top: 5.2rem;
+}
+
+section .header p {
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+section .header .logo {
+    margin-left: 37.2rem !important;
+    margin-right: 29.2rem;
+    width: 38.6rem;
+    height: 8.3rem;
+}
+
+section .header .contact img {
+    margin-left: 1.7rem;
+}
+
+section .middle {
+
+    margin-top: 16.6rem;
+    z-index: 10;
+    position: relative;
+}
+
+section .middle .left {
+    margin-top: 7.3rem;
+    margin-left: 10.3rem;
+}
+
+section .middle .left img {
+    width: 10.3rem;
+    height: 10.3rem;
+}
+
+section .middle .left .mainText {
+    font-size: 6.3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+}
+
+section .middle .left h2 {
+    font-size: 6.3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    font-weight: 600;
+    margin-top: 3rem;
+    margin-bottom: 5.6rem;
+}
+
+section .middle .right .info,
+section .middle .left .wa .info {
+    width: 37.9rem;
+    height: 8.8rem;
+    box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    margin-left: 2.1rem;
+    font-size: 3rem;
+    line-height: 3.9rem;
+    font-weight: 500;
+    color: #00448E;
+}
+section .middle .right .info
+{
+    margin-left: 0;
+}
+
+section .middle .middleLine {
+    margin-top: 4.6rem;
+}
+
+section .middle .middleLine .line {
+    width: 5px;
+    height: 120px;
+    box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+
+}
+
+section .middle .middleLine p {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin: 2.4rem 0;
+}
+
+section .middle .right {
+    margin-right: 14.8rem;
+}
+
+section .middle .right img {
+    margin-bottom: 3.5rem;
+    width: 20.7rem;
+    height: 21rem;
+}
+
+section .bottom {
+
+    margin-top: 23.6rem;
+    margin-right: 13.2rem;
+}
+
+section .bottom p {
+    font-size: 3rem;
+    line-height: 3.9rem;
+    color: #00448E;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+section .bottom button {
+    margin-left: 38.1rem;
+    width: 24.6rem;
+    height: 8.8rem;
+    font-size: 3rem;
+    line-height: 3.9rem;
+    background: #00448E;
+    box-shadow: 8px 21px 9px rgba(0, 0, 0, 0.01), 5px 12px 8px rgba(0, 0, 0, 0.03), 2px 5px 6px rgba(0, 0, 0, 0.04), 1px 1px 3px rgba(0, 0, 0, 0.05), 0px 0px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+}
+
+section .bottom button img {
+    margin-right: 1.7rem;
+}
+
+
+.bg {
+    top: 13.5rem;
+}
+
+/* ShareFile  */

@@ -1,0 +1,23 @@
+Array
+(
+    [messaging_product] => whatsapp
+    [contacts] => Array
+        (
+            [0] => Array
+                (
+                    [input] => 923339039585
+                    [wa_id] => 923339039585
+                )
+
+        )
+
+    [messages] => Array
+        (
+            [0] => Array
+                (
+                    [id] => wamid.HBgMOTIzMzM5MDM5NTg1FQIAERgSMEJCQTE3REQ1REVDMUQ2MEY2AA==
+                )
+
+        )
+
+)

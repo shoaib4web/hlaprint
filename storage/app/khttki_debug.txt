@@ -1,0 +1,72 @@
+Array
+(
+    [object] => whatsapp_business_account
+    [entry] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 112464468503035
+                    [changes] => Array
+                        (
+                            [0] => Array
+                                (
+                                    [value] => Array
+                                        (
+                                            [messaging_product] => whatsapp
+                                            [metadata] => Array
+                                                (
+                                                    [display_phone_number] => 966591013248
+                                                    [phone_number_id] => 107831068970298
+                                                )
+
+                                            [contacts] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [profile] => Array
+                                                                (
+                                                                    [name] => Hamza Khattak
+                                                                )
+
+                                                            [wa_id] => 923339039585
+                                                        )
+
+                                                )
+
+                                            [messages] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [context] => Array
+                                                                (
+                                                                    [forwarded] => 1
+                                                                )
+
+                                                            [from] => 923339039585
+                                                            [id] => wamid.HBgMOTIzMzM5MDM5NTg1FQIAEhgUM0E0Qjc1RTcxMjYxMkU2MzAzNkYA
+                                                            [timestamp] => 1689261971
+                                                            [type] => document
+                                                            [document] => Array
+                                                                (
+                                                                    [filename] => certificate.pdf
+                                                                    [mime_type] => application/pdf
+                                                                    [sha256] => VcNfCImpvqks6B63ZhEuaUbOBE615sK9j8/2p96LQnM=
+                                                                    [id] => 3622242864727129
+                                                                )
+
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [field] => messages
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

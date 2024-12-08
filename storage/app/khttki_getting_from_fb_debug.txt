@@ -1,0 +1,410 @@
+Illuminate\Http\Client\Response Object
+(
+    [response:protected] => GuzzleHttp\Psr7\Response Object
+        (
+            [reasonPhrase:GuzzleHttp\Psr7\Response:private] => OK
+            [statusCode:GuzzleHttp\Psr7\Response:private] => 200
+            [headers:GuzzleHttp\Psr7\Response:private] => Array
+                (
+                    [content-digest] => Array
+                        (
+                            [0] => adler32=2459266162
+                        )
+
+                    [ETag] => Array
+                        (
+                            [0] => -238000731943211727
+                        )
+
+                    [x-manifold-obj-blobsizebytes] => Array
+                        (
+                            [0] => 427255
+                        )
+
+                    [x-manifold-obj-canonicalpath] => Array
+                        (
+                            [0] => flat/1080037956267776
+                        )
+
+                    [x-manifold-obj-ctime] => Array
+                        (
+                            [0] => 1695804414
+                        )
+
+                    [x-manifold-obj-entrytype] => Array
+                        (
+                            [0] => 1
+                        )
+
+                    [x-manifold-obj-expiresat] => Array
+                        (
+                            [0] => 0
+                        )
+
+                    [x-manifold-obj-isuserdata] => Array
+                        (
+                            [0] => 0
+                        )
+
+                    [x-manifold-obj-propertiesjson] => Array
+                        (
+                            [0] => {"blob_state":"created","__ctime":"1695804414"}
+                        )
+
+                    [x-manifold-obj-symlinktarget] => Array
+                        (
+                            [0] => 
+                        )
+
+                    [cross-origin-resource-policy] => Array
+                        (
+                            [0] => cross-origin
+                        )
+
+                    [Accept-Ranges] => Array
+                        (
+                            [0] => bytes
+                        )
+
+                    [Date] => Array
+                        (
+                            [0] => Wed, 27 Sep 2023 08:46:58 GMT
+                        )
+
+                    [Cache-Control] => Array
+                        (
+                            [0] => private, no-cache, no-store, must-revalidate
+                        )
+
+                    [Content-Disposition] => Array
+                        (
+                            [0] => inline;filename=File.pptx
+                        )
+
+                    [Content-Type] => Array
+                        (
+                            [0] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+                        )
+
+                    [Vary] => Array
+                        (
+                            [0] => Accept-Encoding
+                        )
+
+                    [Connection] => Array
+                        (
+                            [0] => keep-alive
+                        )
+
+                    [Content-Length] => Array
+                        (
+                            [0] => 413895
+                        )
+
+                )
+
+            [headerNames:GuzzleHttp\Psr7\Response:private] => Array
+                (
+                    [content-digest] => content-digest
+                    [etag] => ETag
+                    [x-manifold-obj-blobsizebytes] => x-manifold-obj-blobsizebytes
+                    [x-manifold-obj-canonicalpath] => x-manifold-obj-canonicalpath
+                    [x-manifold-obj-ctime] => x-manifold-obj-ctime
+                    [x-manifold-obj-entrytype] => x-manifold-obj-entrytype
+                    [x-manifold-obj-expiresat] => x-manifold-obj-expiresat
+                    [x-manifold-obj-isuserdata] => x-manifold-obj-isuserdata
+                    [x-manifold-obj-propertiesjson] => x-manifold-obj-propertiesjson
+                    [x-manifold-obj-symlinktarget] => x-manifold-obj-symlinktarget
+                    [cross-origin-resource-policy] => cross-origin-resource-policy
+                    [accept-ranges] => Accept-Ranges
+                    [date] => Date
+                    [cache-control] => Cache-Control
+                    [content-disposition] => Content-Disposition
+                    [content-type] => Content-Type
+                    [vary] => Vary
+                    [connection] => Connection
+                    [content-length] => Content-Length
+                )
+
+            [protocol:GuzzleHttp\Psr7\Response:private] => 1.1
+            [stream:GuzzleHttp\Psr7\Response:private] => GuzzleHttp\Psr7\Stream Object
+                (
+                    [stream:GuzzleHttp\Psr7\Stream:private] => Resource id #543
+                    [size:GuzzleHttp\Psr7\Stream:private] => 
+                    [seekable:GuzzleHttp\Psr7\Stream:private] => 1
+                    [readable:GuzzleHttp\Psr7\Stream:private] => 1
+                    [writable:GuzzleHttp\Psr7\Stream:private] => 1
+                    [uri:GuzzleHttp\Psr7\Stream:private] => php://temp
+                    [customMetadata:GuzzleHttp\Psr7\Stream:private] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [decoded:protected] => 
+    [cookies] => GuzzleHttp\Cookie\CookieJar Object
+        (
+            [cookies:GuzzleHttp\Cookie\CookieJar:private] => Array
+                (
+                )
+
+            [strictMode:GuzzleHttp\Cookie\CookieJar:private] => 
+        )
+
+    [transferStats] => GuzzleHttp\TransferStats Object
+        (
+            [request:GuzzleHttp\TransferStats:private] => GuzzleHttp\Psr7\Request Object
+                (
+                    [method:GuzzleHttp\Psr7\Request:private] => GET
+                    [requestTarget:GuzzleHttp\Psr7\Request:private] => 
+                    [uri:GuzzleHttp\Psr7\Request:private] => GuzzleHttp\Psr7\Uri Object
+                        (
+                            [scheme:GuzzleHttp\Psr7\Uri:private] => https
+                            [userInfo:GuzzleHttp\Psr7\Uri:private] => 
+                            [host:GuzzleHttp\Psr7\Uri:private] => lookaside.fbsbx.com
+                            [port:GuzzleHttp\Psr7\Uri:private] => 
+                            [path:GuzzleHttp\Psr7\Uri:private] => /whatsapp_business/attachments/
+                            [query:GuzzleHttp\Psr7\Uri:private] => mid=1007132760611545&ext=1695804716&hash=ATuLRZQbOQ2vvc7eyMK335Zh-kTuZpW2znEShQnhsrrATw
+                            [fragment:GuzzleHttp\Psr7\Uri:private] => 
+                            [composedComponents:GuzzleHttp\Psr7\Uri:private] => https://lookaside.fbsbx.com/whatsapp_business/attachments/?mid=1007132760611545&ext=1695804716&hash=ATuLRZQbOQ2vvc7eyMK335Zh-kTuZpW2znEShQnhsrrATw
+                        )
+
+                    [headers:GuzzleHttp\Psr7\Request:private] => Array
+                        (
+                            [User-Agent] => Array
+                                (
+                                    [0] => GuzzleHttp/7
+                                )
+
+                            [Host] => Array
+                                (
+                                    [0] => lookaside.fbsbx.com
+                                )
+
+                            [Authorization] => Array
+                                (
+                                    [0] => Bearer EAAlAigYje8QBO59eGxviZCxydg1ulQ3T6gaZCfQlkdOBRZCxLw9NRbcKCcjAZCTVx9Wr57IwSPkYAnkXTrER0FVUZASotyzcZCld0wSFqqL5gT1cZAXjGN9uEsmPXeQRVQYqXgUWwRfS3YLQCvttTJG2fjDgsOZAedzhSNSKNiZAOoM3hvrd7xbAuOus1McjkpGwZA
+                                )
+
+                        )
+
+                    [headerNames:GuzzleHttp\Psr7\Request:private] => Array
+                        (
+                            [user-agent] => User-Agent
+                            [host] => Host
+                            [authorization] => Authorization
+                        )
+
+                    [protocol:GuzzleHttp\Psr7\Request:private] => 1.1
+                    [stream:GuzzleHttp\Psr7\Request:private] => GuzzleHttp\Psr7\Stream Object
+                        (
+                            [stream:GuzzleHttp\Psr7\Stream:private] => Resource id #541
+                            [size:GuzzleHttp\Psr7\Stream:private] => 0
+                            [seekable:GuzzleHttp\Psr7\Stream:private] => 1
+                            [readable:GuzzleHttp\Psr7\Stream:private] => 1
+                            [writable:GuzzleHttp\Psr7\Stream:private] => 1
+                            [uri:GuzzleHttp\Psr7\Stream:private] => php://temp
+                            [customMetadata:GuzzleHttp\Psr7\Stream:private] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [response:GuzzleHttp\TransferStats:private] => GuzzleHttp\Psr7\Response Object
+                (
+                    [reasonPhrase:GuzzleHttp\Psr7\Response:private] => OK
+                    [statusCode:GuzzleHttp\Psr7\Response:private] => 200
+                    [headers:GuzzleHttp\Psr7\Response:private] => Array
+                        (
+                            [content-digest] => Array
+                                (
+                                    [0] => adler32=2459266162
+                                )
+
+                            [ETag] => Array
+                                (
+                                    [0] => -238000731943211727
+                                )
+
+                            [x-manifold-obj-blobsizebytes] => Array
+                                (
+                                    [0] => 427255
+                                )
+
+                            [x-manifold-obj-canonicalpath] => Array
+                                (
+                                    [0] => flat/1080037956267776
+                                )
+
+                            [x-manifold-obj-ctime] => Array
+                                (
+                                    [0] => 1695804414
+                                )
+
+                            [x-manifold-obj-entrytype] => Array
+                                (
+                                    [0] => 1
+                                )
+
+                            [x-manifold-obj-expiresat] => Array
+                                (
+                                    [0] => 0
+                                )
+
+                            [x-manifold-obj-isuserdata] => Array
+                                (
+                                    [0] => 0
+                                )
+
+                            [x-manifold-obj-propertiesjson] => Array
+                                (
+                                    [0] => {"blob_state":"created","__ctime":"1695804414"}
+                                )
+
+                            [x-manifold-obj-symlinktarget] => Array
+                                (
+                                    [0] => 
+                                )
+
+                            [cross-origin-resource-policy] => Array
+                                (
+                                    [0] => cross-origin
+                                )
+
+                            [Accept-Ranges] => Array
+                                (
+                                    [0] => bytes
+                                )
+
+                            [Date] => Array
+                                (
+                                    [0] => Wed, 27 Sep 2023 08:46:58 GMT
+                                )
+
+                            [Cache-Control] => Array
+                                (
+                                    [0] => private, no-cache, no-store, must-revalidate
+                                )
+
+                            [Content-Disposition] => Array
+                                (
+                                    [0] => inline;filename=File.pptx
+                                )
+
+                            [Content-Type] => Array
+                                (
+                                    [0] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+                                )
+
+                            [Vary] => Array
+                                (
+                                    [0] => Accept-Encoding
+                                )
+
+                            [Connection] => Array
+                                (
+                                    [0] => keep-alive
+                                )
+
+                            [Content-Length] => Array
+                                (
+                                    [0] => 413895
+                                )
+
+                        )
+
+                    [headerNames:GuzzleHttp\Psr7\Response:private] => Array
+                        (
+                            [content-digest] => content-digest
+                            [etag] => ETag
+                            [x-manifold-obj-blobsizebytes] => x-manifold-obj-blobsizebytes
+                            [x-manifold-obj-canonicalpath] => x-manifold-obj-canonicalpath
+                            [x-manifold-obj-ctime] => x-manifold-obj-ctime
+                            [x-manifold-obj-entrytype] => x-manifold-obj-entrytype
+                            [x-manifold-obj-expiresat] => x-manifold-obj-expiresat
+                            [x-manifold-obj-isuserdata] => x-manifold-obj-isuserdata
+                            [x-manifold-obj-propertiesjson] => x-manifold-obj-propertiesjson
+                            [x-manifold-obj-symlinktarget] => x-manifold-obj-symlinktarget
+                            [cross-origin-resource-policy] => cross-origin-resource-policy
+                            [accept-ranges] => Accept-Ranges
+                            [date] => Date
+                            [cache-control] => Cache-Control
+                            [content-disposition] => Content-Disposition
+                            [content-type] => Content-Type
+                            [vary] => Vary
+                            [connection] => Connection
+                            [content-length] => Content-Length
+                        )
+
+                    [protocol:GuzzleHttp\Psr7\Response:private] => 1.1
+                    [stream:GuzzleHttp\Psr7\Response:private] => GuzzleHttp\Psr7\Stream Object
+                        (
+                            [stream:GuzzleHttp\Psr7\Stream:private] => Resource id #543
+                            [size:GuzzleHttp\Psr7\Stream:private] => 
+                            [seekable:GuzzleHttp\Psr7\Stream:private] => 1
+                            [readable:GuzzleHttp\Psr7\Stream:private] => 1
+                            [writable:GuzzleHttp\Psr7\Stream:private] => 1
+                            [uri:GuzzleHttp\Psr7\Stream:private] => php://temp
+                            [customMetadata:GuzzleHttp\Psr7\Stream:private] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [transferTime:GuzzleHttp\TransferStats:private] => 0.934303
+            [handlerStats:GuzzleHttp\TransferStats:private] => Array
+                (
+                    [url] => https://lookaside.fbsbx.com/whatsapp_business/attachments/?mid=1007132760611545&ext=1695804716&hash=ATuLRZQbOQ2vvc7eyMK335Zh-kTuZpW2znEShQnhsrrATw
+                    [content_type] => application/vnd.openxmlformats-officedocument.presentationml.presentation
+                    [http_code] => 200
+                    [header_size] => 779
+                    [request_size] => 412
+                    [filetime] => -1
+                    [ssl_verify_result] => 0
+                    [redirect_count] => 0
+                    [total_time] => 0.934303
+                    [namelookup_time] => 0.245814
+                    [connect_time] => 0.272661
+                    [pretransfer_time] => 0.301112
+                    [size_upload] => 0
+                    [size_download] => 413895
+                    [speed_download] => 442998
+                    [speed_upload] => 0
+                    [download_content_length] => 413895
+                    [upload_content_length] => 0
+                    [starttransfer_time] => 0.714573
+                    [redirect_time] => 0
+                    [redirect_url] => 
+                    [primary_ip] => 157.240.28.16
+                    [certinfo] => Array
+                        (
+                        )
+
+                    [primary_port] => 443
+                    [local_ip] => 162.241.253.108
+                    [local_port] => 33836
+                    [http_version] => 2
+                    [protocol] => 2
+                    [ssl_verifyresult] => 0
+                    [scheme] => HTTPS
+                    [appconnect_time_us] => 301062
+                    [connect_time_us] => 272661
+                    [namelookup_time_us] => 245814
+                    [pretransfer_time_us] => 301112
+                    [redirect_time_us] => 0
+                    [starttransfer_time_us] => 714573
+                    [total_time_us] => 934303
+                    [effective_method] => GET
+                    [appconnect_time] => 0.301062
+                )
+
+            [handlerErrorData:GuzzleHttp\TransferStats:private] => 0
+        )
+
+)

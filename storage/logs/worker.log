@@ -1,0 +1,104 @@
+PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+  2023-11-26 10:51:43 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 10:51:44 App\Jobs\SendWhatsAppReply ............... 868.07ms DONE
+  2023-11-26 10:52:37 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 10:52:38 App\Jobs\SendWhatsAppReply ..................... 1s DONE
+  2023-11-26 10:53:49 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 10:53:49 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 10:53:49 App\Jobs\SendWhatsAppReply ............... 688.76ms DONE
+  2023-11-26 10:53:49 App\Jobs\SendWhatsAppReply ............... 753.26ms DONE
+PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+PHP Warning:  Module "intl" is already loaded in Unknown on line 0
+  2023-11-26 11:00:39 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:00:40 App\Jobs\SendWhatsAppReply ............... 693.94ms DONE
+  2023-11-26 11:01:31 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:01:32 App\Jobs\SendWhatsAppReply ............... 721.54ms DONE
+  2023-11-26 11:01:32 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:01:32 App\Jobs\SendWhatsAppReply ................. 4.30ms DONE
+  2023-11-26 11:10:47 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:10:48 App\Jobs\SendWhatsAppReply ............... 645.05ms DONE
+  2023-11-26 11:10:48 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:10:48 App\Jobs\SendWhatsAppReply ................. 7.74ms DONE
+  2023-11-26 11:15:51 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:15:52 App\Jobs\SendWhatsAppReply ............... 737.32ms DONE
+  2023-11-26 11:15:52 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:15:52 App\Jobs\SendWhatsAppReply ................. 4.50ms DONE
+  2023-11-26 11:29:43 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:29:44 App\Jobs\SendWhatsAppReply ................ 15.21ms DONE
+  2023-11-26 11:29:44 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:29:44 App\Jobs\SendWhatsAppReply ................. 7.33ms DONE
+  2023-11-26 11:29:44 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:29:44 App\Jobs\SendWhatsAppReply ................. 5.44ms DONE
+  2023-11-26 11:29:44 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:29:44 App\Jobs\SendWhatsAppReply ................ 16.02ms DONE
+  2023-11-26 11:29:47 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:29:47 App\Jobs\SendWhatsAppReply ............... 743.68ms DONE
+  2023-11-26 11:29:47 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:29:47 App\Jobs\SendWhatsAppReply ................. 5.47ms DONE
+  2023-11-26 11:29:47 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:29:47 App\Jobs\SendWhatsAppReply ................ 10.65ms DONE
+  2023-11-26 11:37:09 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:37:09 App\Jobs\SendWhatsAppReply ............... 673.75ms DONE
+  2023-11-26 11:37:09 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:37:09 App\Jobs\SendWhatsAppReply ................. 4.24ms DONE
+  2023-11-26 11:37:09 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:37:09 App\Jobs\SendWhatsAppReply ................. 5.65ms DONE
+  2023-11-26 11:37:12 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:37:12 App\Jobs\SendWhatsAppReply ................. 4.08ms DONE
+  2023-11-26 11:37:12 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 11:37:12 App\Jobs\SendWhatsAppReply ................. 4.19ms DONE
+  2023-11-26 15:26:20 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 15:26:21 App\Jobs\SendWhatsAppReply ............... 881.83ms DONE
+  2023-11-26 16:02:28 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 16:02:28 App\Jobs\SendWhatsAppReply ................. 6.65ms DONE
+  2023-11-26 16:02:29 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 16:02:29 App\Jobs\SendWhatsAppReply ............... 816.83ms DONE
+  2023-11-26 16:02:29 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 16:02:29 App\Jobs\SendWhatsAppReply ................ 14.28ms DONE
+  2023-11-26 16:02:29 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 16:02:29 App\Jobs\SendWhatsAppReply ................. 4.58ms DONE
+  2023-11-26 16:02:32 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 16:02:32 App\Jobs\SendWhatsAppReply ................. 4.28ms DONE
+  2023-11-26 16:12:51 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 16:12:51 App\Jobs\SendWhatsAppReply ................. 8.66ms DONE
+  2023-11-26 16:12:54 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 16:12:55 App\Jobs\SendWhatsAppReply ............... 713.86ms DONE
+  2023-11-26 16:12:55 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 16:12:55 App\Jobs\SendWhatsAppReply ................. 3.96ms DONE
+  2023-11-26 16:12:55 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 16:12:55 App\Jobs\SendWhatsAppReply ................. 4.87ms DONE
+  2023-11-26 18:27:34 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 18:27:35 App\Jobs\SendWhatsAppReply ............... 606.98ms DONE
+  2023-11-26 18:27:35 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 18:27:35 App\Jobs\SendWhatsAppReply ................. 4.96ms DONE
+  2023-11-26 18:27:35 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 18:27:35 App\Jobs\SendWhatsAppReply ................. 4.38ms DONE
+  2023-11-26 18:27:35 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 18:27:35 App\Jobs\SendWhatsAppReply ................. 4.58ms DONE
+  2023-11-26 18:48:54 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 18:48:55 App\Jobs\SendWhatsAppReply ............... 578.98ms DONE
+  2023-11-26 18:49:01 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 18:49:01 App\Jobs\SendWhatsAppReply ............... 629.29ms DONE
+  2023-11-26 18:49:31 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 18:49:32 App\Jobs\SendWhatsAppReply ............... 620.07ms DONE
+  2023-11-26 18:49:38 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-26 18:49:38 App\Jobs\SendWhatsAppReply ................. 8.53ms DONE
+  2023-11-27 11:49:56 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-27 11:49:57 App\Jobs\SendWhatsAppReply ..................... 1s DONE
+  2023-11-27 12:35:00 App\Jobs\SendWhatsAppReply ..................... RUNNING
+  2023-11-27 12:35:00 App\Jobs\SendWhatsAppReply ............... 821.47ms DONE
