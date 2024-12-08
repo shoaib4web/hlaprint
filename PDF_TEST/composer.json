@@ -1,0 +1,10 @@
+{
+    "require": {
+        "howtomakeaturn/pdfinfo": "1.*"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
+}
